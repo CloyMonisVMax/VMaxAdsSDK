@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina3_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,7 +13,7 @@
             <rect key="frame" x="0.0" y="0.0" width="300" height="250"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tmv-g2-yyf" customClass="GADUnifiedNativeAdView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tmv-g2-yyf">
                     <rect key="frame" x="1" y="0.0" width="300" height="250"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LTH-ww-aHg">
@@ -74,7 +72,7 @@
                                 <constraint firstItem="Sgx-GQ-nLG" firstAttribute="top" secondItem="LTH-ww-aHg" secondAttribute="top" constant="4" id="vht-Z8-rm9"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVU-s6-e20" customClass="GADMediaView">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVU-s6-e20">
                             <rect key="frame" x="35" y="91" width="230" height="128"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
@@ -117,10 +115,6 @@
                         <constraint firstItem="PVU-s6-e20" firstAttribute="leading" secondItem="sWp-pW-Dhf" secondAttribute="leading" id="xsj-AP-eoR"/>
                         <constraint firstItem="PVU-s6-e20" firstAttribute="bottom" secondItem="sWp-pW-Dhf" secondAttribute="bottom" id="zFs-Yw-p7f"/>
                     </constraints>
-                    <connections>
-                        <outlet property="callToActionView" destination="SmV-vj-Iw5" id="e3Y-ai-NjT"/>
-                        <outlet property="mediaView" destination="PVU-s6-e20" id="I2r-bO-GH8"/>
-                    </connections>
                 </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

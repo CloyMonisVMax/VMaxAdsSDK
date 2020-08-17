@@ -4,6 +4,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "VMaxAdView.h"
 
 @class VMaxNativeAd;
 @class VMaxAdView;
@@ -65,6 +66,13 @@ typedef NS_ENUM(NSUInteger, VMaxNativeAdType) {
 @class VMaxAdView;
 
 @interface VMaxNativeAd : NSObject
+
+@property (assign,nonatomic) NSInteger adContentType; // 3.11.10 Added
+
+@property (assign,nonatomic)BOOL isImpressionFiredAd; // 3.11.7 Added
+
+@property (assign) BOOL disablePreparePlayer; //3.12.1 Added
+
 //.. 3.6.10
 @property (assign,nonatomic) VMaxAdView *native_AdView;
 /*!

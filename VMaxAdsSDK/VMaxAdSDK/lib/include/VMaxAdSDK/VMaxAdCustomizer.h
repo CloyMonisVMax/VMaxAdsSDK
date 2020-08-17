@@ -8,7 +8,8 @@
 NS_ASSUME_NONNULL_BEGIN
 @property (assign,nonatomic) UIInterfaceOrientationMask supportOrientationMaskOnMediaExpand;
 
-@property (assign,nonatomic) BOOL   enableTransitionLoader;
+//@property (assign,nonatomic) BOOL   enableTransitionLoader;//1049_1 
+@property (assign,nonatomic) BOOL   disableTransitionLoader;
 @property (copy)AVLayerVideoGravity  playerGravity; //..NEWLY ADDED
 @property (assign,nonatomic) BOOL   hideAdBadge;
 @property (assign,nonatomic) BOOL   disableAutoHandlingMediaViewOnExpand;

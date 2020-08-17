@@ -9,6 +9,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <Foundation/Foundation.h>
 #import "VMaxViewabilityTracker.h"
+#import <WebKit/WebKit.h>
 
 @protocol VMaxViewabilityAd <NSObject>
 
@@ -18,7 +19,11 @@
 @optional
 @property(nonatomic,weak) id mediaselector;
 //MOAT webview Display_123rrr
-- (void)registerDisplayAd:(UIWebView *)webView;
+
+//3.12.0___Display
+//- (void)registerDisplayAd:(UIWebView *)webView;
+- (void)registerDisplayAd:(WKWebView *)webView;
+
 - (void)displayStartTracking;
 - (void)displayStopTracking;
 
@@ -55,7 +60,11 @@
 -(void)recordVastEvent :(NSString *)strEvent;
 -(void)startNativeAdSession :(UIView *)adview andVendorKey:(NSString *)strVendorKey andVerificationParam:(NSString *)strVerificationParam andResourceURL:(NSString *)strResourceURL andJSServiceContent:(NSString *)strJSServiceContent;
 -(void)endNativeAdSession;
--(void)registerDisplayAd :(UIWebView *)webView andview:(UIView *)playerView andfriendlyObstructions:(NSMutableArray *)friendlyObstructions;
+
+//3.12.0___Display
+//-(void)registerDisplayAd :(UIWebView *)webView andview:(UIView *)playerView andfriendlyObstructions:(NSMutableArray *)friendlyObstructions;
+-(void)registerDisplayAd :(WKWebView *)webView andview:(UIView *)playerView andfriendlyObstructions:(NSMutableArray *)friendlyObstructions;
+
 -(void)registerNativeAdView:(UIView *)adview;
 -(void)registerDisplayAdFriendlyObstruction : (UIView *)friendlyObstructions;
 -(void)startVastAdSessionMainAdview;

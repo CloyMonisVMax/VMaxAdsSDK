@@ -13,7 +13,6 @@
 - (void)onPrimaryAdEnd:(CompanionInfo *)companionInfo;
 @end
 
-
 @protocol VMaxAdAnimationDelegate <NSObject>
 @required
 - (void)onAnimationStart:(VMaxAdView *)adView;
@@ -110,7 +109,11 @@
 - (void)onAdRefresh:(VMaxAdView *)adView;
 - (void)onAdRender:(VMaxAdView *)adView;
 
-//Vmax Plugin EventsForKaltura
+- (void)onAdReceived:(VMaxAdView *)adView; //3.13.1
+
+- (void)onAdMediaProgress:(VMaxMediaProgress)mediaProgress withAdView:(VMaxAdView *)adView;
+
+//3.14.1 EventsForKaltura
 - (void)onAdMediaScreenClickedOrTapped;
 
 - (void)onAdPaused:(VMaxAdView *)adView;
@@ -126,7 +129,6 @@
 - (void)onAdImpression;
 
 - (void)onAdSkipped:(VMaxAdView *)adView;
-
-//Vmax Plugin EventsForKaltura
+//3.14.1 EventsForKaltura
 
 @end

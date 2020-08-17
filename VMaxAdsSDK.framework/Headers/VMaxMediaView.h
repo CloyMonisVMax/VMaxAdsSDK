@@ -125,4 +125,14 @@
  @abstract for pausing ad playback
  */
 - (void)pause;
+
+- (void)sdkResumeAd;
+
+- (void)sdkPauseAd;
+
+@property (assign,nonatomic) BOOL nativeAutoplay;
+
+
+- (void)removeAsSuperviewObserver;
+
 @end

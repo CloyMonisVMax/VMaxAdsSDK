@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="landscape">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,7 +13,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xhu-fR-sql" customClass="GADUnifiedNativeAdView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xhu-fR-sql">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cls-tP-4Qc">
@@ -91,9 +89,6 @@
                         <constraint firstAttribute="bottom" secondItem="JHl-6H-Ifc" secondAttribute="bottom" id="r9j-7f-4x8"/>
                         <constraint firstAttribute="trailing" secondItem="cls-tP-4Qc" secondAttribute="trailing" constant="5" id="v53-td-18j"/>
                     </constraints>
-                    <connections>
-                        <outlet property="callToActionView" destination="cls-tP-4Qc" id="ULT-Ed-rJU"/>
-                    </connections>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -123,7 +118,7 @@
             <rect key="frame" x="0.0" y="0.0" width="768" height="80"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uGe-r2-2uE" customClass="GADUnifiedNativeAdView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uGe-r2-2uE">
                     <rect key="frame" x="0.0" y="0.0" width="768" height="80"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUs-4Q-KIy">
@@ -198,9 +193,6 @@
                         <constraint firstItem="5lH-Aw-wnr" firstAttribute="leading" secondItem="9yn-LM-9GG" secondAttribute="trailing" constant="2" id="qOD-Xg-QLp"/>
                         <constraint firstAttribute="trailing" secondItem="2ax-cs-V1x" secondAttribute="trailing" constant="5" id="ylF-6C-ej2"/>
                     </constraints>
-                    <connections>
-                        <outlet property="callToActionView" destination="EUs-4Q-KIy" id="zkd-Vh-vJz"/>
-                    </connections>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

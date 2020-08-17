@@ -15,6 +15,7 @@
 #import "VMAXSectionCategory.h"
 #import "VMaxAdCustomizer.h"
 #import "VmaxAdInfo.h"
+
 /*!
  Keys to coustumize the VMaxAdView appearience.
  
@@ -136,6 +137,7 @@ typedef NS_ENUM(NSUInteger, VMaxAdCloseButtonPlacement) {
  @field     kVMaxAdUX_Banner, Banner UX Type.
  */
 typedef NS_ENUM(NSUInteger, VMaxAdUX) {
+    //kVMaxAdUX_Uninitialized,
     kVMaxAdUX_Interstitial,
     kVMaxAdUX_Banner,
     kVMaxAdUX_Native,
@@ -199,7 +201,7 @@ typedef NS_ENUM(NSUInteger, VMaxAdTag) {
     vmax_native_advertiser_name
 };
 
-//Vmax Plugin Layout selection changes
+//3.14.1 Video tagging
 typedef NS_ENUM(NSUInteger,VMaxAdVideoTag) {
     vmax_video_player_container = 5000,
     vmax_video_cta,
@@ -214,7 +216,26 @@ typedef NS_ENUM(NSUInteger,VMaxAdVideoTag) {
     vmax_video_companion
     
 };
-//Vmax Plugin Layout selection changes
+//3.14.1 Video tagging
+
+// Tagging Approach
+/*
+typedef NS_ENUM(NSUInteger, VMaxAdVideoTag) {
+    vmax_video_player_container = 5000,
+    vmax_video_volume_icon,
+    vmax_video_skip_element,
+    vmax_video_playback_icon,
+    vmax_video_progresscount,
+    vmax_video_progressbar,
+    vmax_video_close,
+    vmax_video_viewadvertisement,
+    vmax_video_skipcount,
+    vmax_video_play,
+    vmax_video_videocount,
+    vmax_video_mute,
+    vmax_video_expand
+};
+*/
 
 /*!
  @enum      VMaxAdView
@@ -262,14 +283,15 @@ typedef NS_ENUM(NSUInteger,VMaxAdVideoTag) {
 @property (nonatomic) AVPlayer *playerObject;
 @property (nonatomic) UIView *viewObject;
 @property (strong, nonatomic) NSLayoutConstraint *nativeAdChoiceTrialingConstraint; //..(3.6.46) Added
+@property (assign,nonatomic) int latencyPerAdFromConfig;//..(3.11.7) ADDED
 
 - (NSDictionary*)getAdditionalParameters;
-//3.10.21
 
-//Vmax Plugin Layout selection based changes
+//3.14.1 Video tagging TO_Review
 @property (nonatomic) BOOL isVideoViewTagged;
-//Vmax Plugin Layout selection based changes
+//3.14.1 Video tagging TO_Review
 
+//3.10.21
 -(void)triggerDataDelegate;
 /*!
  @function      initWithadspotID: viewController: withAdUXType
@@ -328,11 +350,24 @@ typedef NS_ENUM(NSUInteger,VMaxAdVideoTag) {
 -(void)setRefreshRate:(UInt32)inRefreshIntervalInSeconds;
 
 /*!
+ @function      getRefreshRate:
+ @abstract      Call this method to get the refresh rate.
+ */
+-(UInt32)getRefreshRate;
+
+/*!
  @function      setTimeout:
  @abstract      Set the Ad Request timeout. Default timeout is 20 seconds.
  @param         inTimeout, UInt32. Timeout period in seconds.
  */
 -(void)setTimeout:(UInt32)inTimeout;
+
+/*!
+ @function      setPodTimeout:
+ @abstract      Set the Pod timeout.
+ @param         inTimeout, UInt32. Timeout period in seconds.
+ */
+-(void)setPodTimeout:(UInt32)inTimeout;
 
 /*!
  @function      setUXType: withConfig:
@@ -498,16 +533,7 @@ typedef NS_ENUM(NSUInteger, AdCategory) {
 -(void)setInstreamDaastContainer:(UIView *)audioNativeContainer containerWidth :(int)width containerHeight:(int) height; //.. (3.11.0) ADDED FOR DAAST STORY
 //..
 
-#pragma mark Vmax Plugin Layout getAdParams
-
-@property(nonatomic) NSMutableDictionary *adParams;
-@property(nonatomic) VmaxAdInfo *adInfo;
-
-/*!
-@function      getAdditionalParameters:
-@abstract      getting AdParams Object From the VAST document
-*/
-- (NSDictionary*)getAdParams;
+-(void)setBackgroundColor:(UIColor *)backgroundColor;
 
 #pragma mark CompanionAdChanges
 
@@ -518,7 +544,7 @@ typedef NS_ENUM(NSUInteger,VMaxAdType) {
 };
 
 typedef NS_ENUM(NSUInteger,VMaxCompanionState) {
-    STATE_DEFAULT = 1,
+    STATE_DEFAULT_STATE = 1,
     STATE_INSTANTIATED,
     STATE_PAUSED,
     STATE_RESUMED,
@@ -537,6 +563,16 @@ typedef NS_ENUM(NSUInteger,VMaxCompanionState) {
 
 - (void) showBannerAd:(VMaxAdType)type;
 
+#pragma mark Vmax Plugin Layout getAdParams
+
+@property(nonatomic) NSMutableDictionary *adParams;
+@property(nonatomic) VmaxAdInfo *adInfo;
+
+/*!
+@function      getAdditionalParameters:
+@abstract      getting AdParams Object From the VAST document
+*/
+- (NSDictionary*)getAdParams;
 
 @end
 

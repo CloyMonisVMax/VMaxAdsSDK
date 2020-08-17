@@ -6,11 +6,12 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-typedef NS_ENUM(NSUInteger, VMMediaType) {
-    MEDIA_TYPE_VIDEO,
-    MEDIA_TYPE_AUDIO, //..(3.11.0)
-    MEDIA_TYPE_IMAGE, //3.10.16 Added
-    MEDIA_TYPE_ALL, //3.10.16 Added
+//3.12.10 VMaxMediaType refactored to MediaType
+typedef NS_ENUM(NSUInteger, VMaxMediaType) {
+    VMAX_MEDIA_TYPE_VIDEO,
+    VMAX_MEDIA_TYPE_AUDIO, //..(3.11.0)
+    VMAX_MEDIA_TYPE_IMAGE, //3.10.16 Added
+    VMAX_MEDIA_TYPE_ALL, //3.10.16 Added
 };
 
 typedef NS_ENUM(NSUInteger, VMAX_LogLevel) {
@@ -79,6 +80,15 @@ NS_ASSUME_NONNULL_END
 @class VMaxAdError;
 
 typedef void (^VMaxAdSDKResponseBlock)(VMaxAdError * _Nonnull error);
+
+
+//3.13.3 S_1049_7 pa
+typedef struct{
+    int currrent;
+    int total;
+}VMaxMediaProgress;
+//..
+
 
 @interface VMaxAdSDK : NSObject
 NS_ASSUME_NONNULL_BEGIN
@@ -151,7 +161,7 @@ typedef NS_ENUM(NSUInteger, Environment) {
 +(void)setIMSI:(NSString * _Nonnull)IMSI;
 +(void)setEnvironment:(Environment)jsBasePath;
 +(void)setAppGroupIndentity:(NSString *_Nullable)appGroupName __attribute__((nonnull));
-+(BOOL)clearCachedMedia:(VMMediaType)VMMediaType;
++(BOOL)clearCachedMedia:(VMaxMediaType)mediaType;
 +(void)disableAdClicksInSafariController:(BOOL)enable;
 //..(3.10.25) ADDED
 +(void)setUserPinCode:(int)pinCode;

@@ -18,6 +18,9 @@ extern NSString* const kVMaxAdErrorDetailParsingFailed;
 extern NSString* const kVMaxAdErrorDetailUnknownError;
 extern NSString* const kVMaxAdErrorDetailAdExpired;
 extern NSString* const VMaxAdErrorDescription_AdRequestCancelled;
+extern NSString* const kVMaxAdErrorTitleAdSkipped;//3.13.0 1015 pa
+extern NSString* const kVMaxAdErrorDetailAdSkipped; // 3.11.7 Added
+extern NSString* const kVMaxAdErrorDescriptionMediaPlayerFailed;
 
 typedef NS_ENUM (NSInteger, ErrorCode) {
     kVMaxAdErrorNoFill = 1001,
@@ -35,7 +38,10 @@ typedef NS_ENUM (NSInteger, ErrorCode) {
     kVMaxAdErrorInvalidAdRequest = 1013,
     kVMaxAdErrorAdExpired = 1014,
     kVMaxError_auto_closed = 1015,
-    kVMaxAdErrorDeviceMute = 1016
+    kVMaxAdErrorDeviceMute = 1016,
+    kVmaxAdErrorAdSkipped = 1032, // 3.11.7 Added
+    kVmaxAdPodTimeout = 1031, // 3.11.7 Added
+    kVMaxMediaPlayerFailed = 1033 //3.12.1
 };
 
 /**
