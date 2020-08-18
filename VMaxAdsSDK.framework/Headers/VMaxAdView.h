@@ -201,7 +201,7 @@ typedef NS_ENUM(NSUInteger, VMaxAdTag) {
     vmax_native_advertiser_name
 };
 
-//3.14.1 Video tagging
+//3.14.1.1 Video tagging
 typedef NS_ENUM(NSUInteger,VMaxAdVideoTag) {
     vmax_video_player_container = 5000,
     vmax_video_cta,
@@ -216,7 +216,7 @@ typedef NS_ENUM(NSUInteger,VMaxAdVideoTag) {
     vmax_video_companion
     
 };
-//3.14.1 Video tagging
+//3.14.1.1 Video tagging
 
 // Tagging Approach
 /*
@@ -287,9 +287,9 @@ typedef NS_ENUM(NSUInteger, VMaxAdVideoTag) {
 
 - (NSDictionary*)getAdditionalParameters;
 
-//3.14.1 Video tagging TO_Review
+//3.14.1.1 Video tagging TO_Review
 @property (nonatomic) BOOL isVideoViewTagged;
-//3.14.1 Video tagging TO_Review
+//3.14.1.1 Video tagging TO_Review
 
 //3.10.21
 -(void)triggerDataDelegate;

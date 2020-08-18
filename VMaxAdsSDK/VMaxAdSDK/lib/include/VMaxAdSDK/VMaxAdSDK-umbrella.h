@@ -28,5 +28,7 @@
 #import "VMaxVideoAd.h"
 #import "VMaxViewabilityAd.h"
 #import "VMaxViewabilityTracker.h"
+#import "CompanionInfo.h"
+#import "VMaxAdInfo.h"
 
 #endif /* VMaxAdSDK_umbrella_h */

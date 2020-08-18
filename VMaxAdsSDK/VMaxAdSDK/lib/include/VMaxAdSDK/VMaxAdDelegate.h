@@ -113,7 +113,7 @@
 
 - (void)onAdMediaProgress:(VMaxMediaProgress)mediaProgress withAdView:(VMaxAdView *)adView;
 
-//3.14.1 EventsForKaltura
+//3.14.1.3 EventsForKaltura
 - (void)onAdMediaScreenClickedOrTapped;
 
 - (void)onAdPaused:(VMaxAdView *)adView;
@@ -129,6 +129,6 @@
 - (void)onAdImpression;
 
 - (void)onAdSkipped:(VMaxAdView *)adView;
-//3.14.1 EventsForKaltura
+//3.14.1.3 EventsForKaltura
 
 @end
