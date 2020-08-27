@@ -6,15 +6,15 @@
 	<dict>
 		<key>DynamicInterstitialViewController.nib/objects-11.0+.nib</key>
 		<data>
-		qJ0mpMmVw+5HrkotClV3I3MBIiQ=
+		VhS57XGfBfCUgtLbL60Cnx+uneE=
 		</data>
 		<key>DynamicInterstitialViewController.nib/runtime.nib</key>
 		<data>
-		5OlEC/dlLQsvfb7aJw7075dLgEY=
+		t+8HI0kDbsLNvzNspPUuV+er/3k=
 		</data>
 		<key>Headers/CompanionInfo.h</key>
 		<data>
-		SikMzDVc2EkfnOiBDo5CZQQbZug=
+		N+ElEszqnj9kld3D4F6+/q5JAfI=
 		</data>
 		<key>Headers/VMAXPageCategory.h</key>
 		<data>
@@ -62,11 +62,15 @@
 		</data>
 		<key>Headers/VMaxAdView.h</key>
 		<data>
-		QxKc0BwvhHiVxLP7REw8VjakGkE=
+		hYyEEuanBlruRSBJ/4XvtrEKv9I=
 		</data>
 		<key>Headers/VMaxAdsSDK.h</key>
 		<data>
 		NR77oe+9yWAi/kq+UjOclrnTiT0=
+		</data>
+		<key>Headers/VMaxCompanionDelegate.h</key>
+		<data>
+		p72lXNq9TCc9BFZp+CFAjci76SY=
 		</data>
 		<key>Headers/VMaxCustomAd.h</key>
 		<data>
@@ -106,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1lLOOl4z8nY4/VNJlbdktW28vPc=
+		jkUFP435/KXmMQBDNlIkbZZct0U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,31 +118,31 @@
 		</data>
 		<key>VMaxNativeAdCSView.nib</key>
 		<data>
-		tqXFKYc1tllaQKxcnYlNHJomYiM=
+		nuW9v5Etk79XpvWBtsZVf9IRyJE=
 		</data>
 		<key>VMaxNativeAdInFeedView.nib</key>
 		<data>
-		agsX7dT857w0xnvGoGImid4N8WM=
+		Z0RzjhibHMpo/nMhYYaRBLLZUdY=
 		</data>
 		<key>VMaxNativeIconAdView.nib</key>
 		<data>
-		PpqmWNSmS0BRBxptMXqJVso9BKk=
+		/opVWFgDTZ1VgtVrsBFBhd1BzaE=
 		</data>
 		<key>VMaxNativeIconAdmobBigPopupView.nib</key>
 		<data>
-		rB9W4XPz/4a4p2RkilRlFkc2Lw0=
+		w8MrA2hOyCdHmvUSs3DS7gkR04U=
 		</data>
 		<key>VMaxNativeIconAdmobSmallPopupView.nib</key>
 		<data>
-		jfJoGFPcLy1YuUp/ULEwFvou58c=
+		wQB9sw4u2YpZWn5iKXVh5wjn56U=
 		</data>
 		<key>VMaxNativeIconBigPopupView.nib</key>
 		<data>
-		deIqNOlXMQuLpBizZhaHJBPy8Ro=
+		QlxdYLVpXT84sJHL9xDm3SfHvww=
 		</data>
 		<key>VMaxNativeIconSmallPopupView.nib</key>
 		<data>
-		r1cIjYDMk23LHLAUcP63qE1uZZ4=
+		iQFoBvSrcbw0qYAethmHLUOaZms=
 		</data>
 		<key>close.png</key>
 		<data>
@@ -159,21 +163,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q+fF8ZaoPArvCJLwhDNIt/puEGEPZfDh3+EX7ohzEjk=
+			rhYSEGpdoDu2Jrkv0x7dSmjo2xei7R7EB77EaAKJzQo=
 			</data>
 		</dict>
 		<key>DynamicInterstitialViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fv627Hw8sKDSMeZSA6WVlJH8uD09nbNfDNyxoXBgVoo=
+			8p2USQAYAHJm4jzWVVRHcWuSbP+6TNrNY56F1P8TIvs=
 			</data>
 		</dict>
 		<key>Headers/CompanionInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SoBagt0ksAWNX7Ijm9Z7pkee5YDDtsBuSPZ1YmlYBlg=
+			Z8VK9M7YlUkqkG4f7wOdIHk1zn2BGDTL8dptZpLw6ps=
 			</data>
 		</dict>
 		<key>Headers/VMAXPageCategory.h</key>
@@ -257,7 +261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FoluwzI9Bz3dNAkShWT1Hklppv51UDDopYVLPVngKYk=
+			kkR18/KtBggF7frbSL/0C10hHza3889j+EE0PHVcSLU=
 			</data>
 		</dict>
 		<key>Headers/VMaxAdsSDK.h</key>
@@ -265,6 +269,13 @@
 			<key>hash2</key>
 			<data>
 			YJdsfTvg+A8cUcoRZsk3o+EGSZTuPC1a4tTLBj9NcjE=
+			</data>
+		</dict>
+		<key>Headers/VMaxCompanionDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sRmENpymm4hOYNTqexe8YP4nUXD8Li7D132mzv/0I6o=
 			</data>
 		</dict>
 		<key>Headers/VMaxCustomAd.h</key>
@@ -341,49 +352,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y4wat+xQoz8XJZOIrSSPV6tS1i8nx7DApOHrSfbHWR8=
+			tp8IAOLYP0IoVXQRMWoMPxKrUPbAFMhTq7vZKJJ6/vg=
 			</data>
 		</dict>
 		<key>VMaxNativeAdInFeedView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQzIcfJjak0Gh1fpYDyR79DwVCBFC7fiGOvuZVdys9k=
+			sDFVty/R/m3L8OEXdX5eVQbxy8+wsPOwdpwQzTnlOKA=
 			</data>
 		</dict>
 		<key>VMaxNativeIconAdView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fQbu45cgRB4oVjss/AQz4uNmoTzieoRIE6p4ti6esoI=
+			QsTadJxYN85ALHRjf/F2//UEtWVRJ/bCxPQt8/Cm6R8=
 			</data>
 		</dict>
 		<key>VMaxNativeIconAdmobBigPopupView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0iP8BIgdzcztZ6vQj675dB5bcgQEwTLtsx8MnKhc/t8=
+			tcM2RfwwY/uEp3lxdp4a9TrJhNqONSlZOISJwbRf8ic=
 			</data>
 		</dict>
 		<key>VMaxNativeIconAdmobSmallPopupView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jBsUm28XJqIgELYWD3WPTaNMuLimOUxXI7LUl4dGG7c=
+			M27siZdlFo6/nBH9Mh3V8248TVvVRGwNacwf4FKNSyg=
 			</data>
 		</dict>
 		<key>VMaxNativeIconBigPopupView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yIqtuMXTd3WrP45eJHkjrZNxriwEiZUmW6zDWNDb020=
+			Y4tPjKFrAnCJ8yOlSSI84dz8aAdHVeA9pRwYsINPLIE=
 			</data>
 		</dict>
 		<key>VMaxNativeIconSmallPopupView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3llieU52wx/Ka2WJBaPfWTUHCz0GTCPvgbtH2s1NNtk=
+			fTTzkD5L88AJZ8Od6aqG9t5KJxR0uFrcO8LW3+tldFQ=
 			</data>
 		</dict>
 		<key>close.png</key>

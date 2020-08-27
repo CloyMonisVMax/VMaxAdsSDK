@@ -15,6 +15,7 @@
 #import "VMAXSectionCategory.h"
 #import "VMaxAdCustomizer.h"
 #import "VmaxAdInfo.h"
+#import "VMaxCompanionDelegate.h"
 
 /*!
  Keys to coustumize the VMaxAdView appearience.
@@ -284,6 +285,7 @@ typedef NS_ENUM(NSUInteger, VMaxAdVideoTag) {
 @property (nonatomic) UIView *viewObject;
 @property (strong, nonatomic) NSLayoutConstraint *nativeAdChoiceTrialingConstraint; //..(3.6.46) Added
 @property (assign,nonatomic) int latencyPerAdFromConfig;//..(3.11.7) ADDED
+@property (weak, nonatomic) id<VMaxCompanionDelegate> delegateCompanion; //Story_476 pa
 
 - (NSDictionary*)getAdditionalParameters;
 

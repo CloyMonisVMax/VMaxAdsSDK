@@ -2,4 +2,3 @@ module module_name {
     umbrella header "VMaxAdSDK-umbrella.h"
     export *
 }
-

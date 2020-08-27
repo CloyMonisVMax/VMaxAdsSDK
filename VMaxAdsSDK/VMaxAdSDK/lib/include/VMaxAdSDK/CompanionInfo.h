@@ -18,9 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *htmlResource;
 //@property (nonatomic,strong) NSString *trackingEvents;
 @property (nonatomic,strong) NSMutableArray* trackingEvents;
-
 @property (nonatomic,assign) BOOL existInCompanionList;
 @property (nonatomic,strong) NSMutableDictionary *dictForWebRender;
+@property (nonatomic,strong) NSMutableArray* clickTrackingEvents;//Story_476 pa
 
 @end
 
