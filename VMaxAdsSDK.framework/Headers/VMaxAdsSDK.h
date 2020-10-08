@@ -15,7 +15,32 @@ FOUNDATION_EXPORT double VMaxAdsSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char VMaxAdsSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <VMaxAdsSDK/PublicHeader.h>
+
+
 #import "VMaxAdView.h"
 #import "VmaxOperationMediator.h"
 #import "IOperationInterface.h"
 #import "IOperationEventReceiver.h"
+#import "VMaxAdCustomizer.h"
+#import "VMaxAdDelegate.h"
+#import "VMaxAdError.h"
+#import "VMaxAdEvent.h"
+#import "VMaxAdPartner.h"
+#import "VMaxAdSDK.h"
+#import "VMaxAdSettings.h"
+#import "VMaxCustomAd.h"
+#import "VMaxCustomAdListener.h"
+#import "VMaxError.h"
+#import "VMaxMediaView.h"
+#import "VMaxNativeAd.h"
+#import "VMAXPageCategory.h"
+#import "VMaxRequest.h"
+#import "VMAXSectionCategory.h"
+#import "VMaxVideoAd.h"
+#import "VMaxViewabilityAd.h"
+#import "VMaxViewabilityTracker.h"
+#import "CompanionInfo.h"
+#import "VMaxAdInfo.h"
+#import "VMaxCompanionDelegate.h"
+#import "ICompanionEventsReceiver.h"
+#import "VMaxCache.h"
