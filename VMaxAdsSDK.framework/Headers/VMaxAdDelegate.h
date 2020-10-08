@@ -7,12 +7,6 @@
 
 @class VMaxAdView;
 
-@protocol VMaxCompanionEventsDelegate <NSObject>
-@required
-- (void)onPrimaryAdShow:(CompanionInfo *)companionInfo;
-- (void)onPrimaryAdEnd:(CompanionInfo *)companionInfo;
-@end
-
 @protocol VMaxAdAnimationDelegate <NSObject>
 @required
 - (void)onAnimationStart:(VMaxAdView *)adView;

@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSMutableArray* trackingEvents;
 @property (nonatomic,assign) BOOL existInCompanionList;
 @property (nonatomic,strong) NSMutableDictionary *dictForWebRender;
-@property (nonatomic,strong) NSMutableArray* clickTrackingEvents;//Story_476 pa
+@property (nonatomic,strong) NSMutableArray* clickTrackingEvents;//3.14.3 S_476 pa
 
 @end
 

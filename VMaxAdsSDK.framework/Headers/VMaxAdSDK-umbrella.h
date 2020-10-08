@@ -30,5 +30,11 @@
 #import "VMaxViewabilityTracker.h"
 #import "CompanionInfo.h"
 #import "VMaxAdInfo.h"
+#import "VMaxCompanionDelegate.h"
+#import "ICompanionEventsReceiver.h"
+#import "VMaxCache.h"
+#import "IOperationEventReceiver.h"
+#import "IOperationInterface.h"
+#import "VmaxOperationMediator.h"
 
 #endif /* VMaxAdSDK_umbrella_h */
