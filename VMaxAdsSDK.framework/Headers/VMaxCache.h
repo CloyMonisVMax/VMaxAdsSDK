@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VMaxCache : NSObject
 
+@property (nonatomic) NSInteger height;
+
+@property (nonatomic) NSInteger width;
+
 - (instancetype) initWithDictionary:(NSDictionary *)dictionary andHostVC:(UIViewController *)hostVC andVMaxAddress:(NSString *)vmaxAddress;
 
 -(NSString*)getMarkup;
