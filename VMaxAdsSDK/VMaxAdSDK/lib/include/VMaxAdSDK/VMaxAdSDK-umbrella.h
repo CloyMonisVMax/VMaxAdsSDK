@@ -5,7 +5,6 @@
 //  Created by Cloy Monis on 12/08/20.
 //  Copyright © 2020 Vserv.mobi. All rights reserved.
 //
-
 #ifndef VMaxAdSDK_umbrella_h
 #define VMaxAdSDK_umbrella_h
 
@@ -38,4 +37,14 @@
 #import "VmaxOperationMediator.h"
 #import "VmaxDataListener.h"
 #import "VmaxTracker.h"
+#import "VmaxAdFactory.h"
+#import "VmaxAdTemplateListener.h"
+#import "VmaxDataListener.h"
+#import "VmaxTemplateHelper.h"
+#import "VmaxTrackerException.h"
+#import "VMaxAd.h"
+#import "VmaxAdSpot.h"
+
 #endif /* VMaxAdSDK_umbrella_h */
+
+
