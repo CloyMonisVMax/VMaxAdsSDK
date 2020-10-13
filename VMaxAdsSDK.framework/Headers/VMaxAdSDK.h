@@ -142,7 +142,8 @@ NS_ASSUME_NONNULL_BEGIN
 +(void)setUserLoginId:(NSString*)loginId; // (3.10.25)
 +(void)setCustomData:(NSMutableDictionary *)globalCSData;// (3.10.25)
 +(NSString *)getSHA1:(NSString *)str; // (3.10.25)
-+(NSString *)getSHA2:(NSString *)str; 
++(NSString *)getSHA2:(NSString *)str;
++(void)setAccountId:(long)accountId; // 12124536547  optional Story id 307  //story accountid
 /**
  * Provide the user's location to the SDK for targetting purposes.
  * @param location: The location of the user

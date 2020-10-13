@@ -4,6 +4,7 @@
 
 #import <Foundation/Foundation.h>
 #import "CompanionInfo.h"
+#import "VmaxDataListener.h"
 
 @class VMaxAdView;
 
@@ -62,7 +63,11 @@
 - (void)onAdMediaEnd:(BOOL)completed reward:(NSInteger)reward : (VMaxAdView *)adView; //Prior 2
 
 @optional
-
+// 3.14.5 shorts
+- (void)VMaxUserGestureListener:(VMaxUserGestures)vMaxUserGestures; //zeeShorts Changes 0.0.8
+- (void)adAssetClicked:(VmaxAdAsset)elementType;
+- (void)onAdSkippable:(VMaxAdView *)adView;
+// 3.14.5 shorts
 /*!
  @function  onAdMediaStart:
  @abstract  Called when an ad is about to be presented in the view.

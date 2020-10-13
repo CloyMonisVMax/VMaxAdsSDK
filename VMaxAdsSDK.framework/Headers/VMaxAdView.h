@@ -17,7 +17,7 @@
 #import "VmaxAdInfo.h"
 #import "VMaxCompanionDelegate.h"
 #import "ICompanionEventsReceiver.h"
-
+#import "VMaxAd.h"
 
 /*!
  Keys to coustumize the VMaxAdView appearience.
@@ -281,6 +281,11 @@ typedef NS_ENUM(NSUInteger, VMaxAdVideoTag) {
 @property (strong, nonatomic) VMaxAdCustomizer *adCustomizer; //..(3.6.46) Added
 @property (nonatomic, assign) BOOL isRewarded;
 //Audio
+// 3.14.5 shorts
+@property (nonatomic, strong) VMaxAd *getVmaxAd;
+@property (strong, nonatomic) id customclasses;
+
+// 3.14.5 shorts
 @property (nonatomic) NSInteger inputBitrate;
 @property (nonatomic, strong) NSDictionary *moatLevelDictionary;
 @property (nonatomic) AVPlayer *playerObject;
@@ -399,6 +404,12 @@ typedef NS_ENUM(NSUInteger, VMaxAdVideoTag) {
  @function      showAd
  @abstract      Use this method in conjunction with cacheAd. If the ad is cached in background in responce to cacheAd or cacheAdWithorientation, this method will display the cache ad on screen. For Billboard ads, this method puts full screen overlay on screen.
  */
+// 3.14.5 shorts
+//-(void)prepareOrganicAd:(NSString *)ad headers:(NSDictionary *)headers;
+-(void)prepareOrganicAd:(NSString *)ad headers:(NSDictionary *)headers adId:(NSString *)adId;
+- (void)setAdOption:(AdOptionKey)adOptionKey adOptionValue:(AdOptionValue)adOptionValue;
+// 3.14.5 shorts
+
 -(void)showAd;
 
 /*!

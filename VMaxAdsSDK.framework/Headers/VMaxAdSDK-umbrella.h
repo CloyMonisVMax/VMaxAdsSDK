@@ -36,5 +36,6 @@
 #import "IOperationEventReceiver.h"
 #import "IOperationInterface.h"
 #import "VmaxOperationMediator.h"
-
+#import "VmaxDataListener.h"
+#import "VmaxTracker.h"
 #endif /* VMaxAdSDK_umbrella_h */

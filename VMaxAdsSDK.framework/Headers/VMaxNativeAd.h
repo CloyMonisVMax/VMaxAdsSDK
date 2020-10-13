@@ -288,8 +288,9 @@ typedef NS_ENUM(NSUInteger, VMaxNativeAdType) {
 
 // OM
 
-@property (strong,nonatomic,getter=getVendorKey) NSString* strVendorkey;
-@property (strong,nonatomic,getter=getJavascriptResourceUrl) NSString* strJavascriptResourceUrl;
-@property (strong,nonatomic,getter=getVerificationParameters) NSString* strVerificationParameters;
-
+//@property (strong,nonatomic,getter=getVendorKey) NSString* strVendorkey;
+//@property (strong,nonatomic,getter=getJavascriptResourceUrl) NSString* strJavascriptResourceUrl;
+//@property (strong,nonatomic,getter=getVerificationParameters) NSString* strVerificationParameters;
+@property (strong,nonatomic,getter=verificationResourceArray) NSMutableArray* verificationResourceArray;  //662 story
+@property (nonatomic,getter=isVideoAd) BOOL isVideoAd; //662 story
 @end
