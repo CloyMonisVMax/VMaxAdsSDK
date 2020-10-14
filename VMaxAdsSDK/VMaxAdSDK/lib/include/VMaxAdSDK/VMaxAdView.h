@@ -17,7 +17,7 @@
 #import "VmaxAdInfo.h"
 #import "VMaxCompanionDelegate.h"
 #import "ICompanionEventsReceiver.h"
-#import "VMaxAd.h"
+//#import "VMaxAd.h"
 
 /*!
  Keys to coustumize the VMaxAdView appearience.
@@ -282,7 +282,7 @@ typedef NS_ENUM(NSUInteger, VMaxAdVideoTag) {
 @property (nonatomic, assign) BOOL isRewarded;
 //Audio
 // 3.14.5 shorts
-@property (nonatomic, strong) VMaxAd *getVmaxAd;
+//@property (nonatomic, strong) VMaxAd *getVmaxAd;
 @property (strong, nonatomic) id customclasses;
 
 // 3.14.5 shorts

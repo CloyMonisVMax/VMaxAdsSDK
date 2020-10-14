@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)getAdOffset;
 - (void)getAdId:(NSString *)adId;
 - (VmaxTracker *)getVmaxTracker;
-- (void)parse:(NSData *)payload adData:(NSDictionary *)adData vmaxDataListener:(VmaxDataListener *)vmaxDataListener vmaxAdView:(VMaxAdView *)vmaxAdView templateName:(NSString *)templateName;
+//- (void)parse:(NSData *)payload adData:(NSDictionary *)adData vmaxDataListener:(VmaxDataListener *)vmaxDataListener vmaxAdView:(VMaxAdView *)vmaxAdView templateName:(NSString *)templateName;
 - (void)render:(VmaxAdTemplateListener *)vmaxAdTemplateListener adScreenType:(NSNumber *)adScreenType viewController:(UIViewController *)viewController;
 @end
 

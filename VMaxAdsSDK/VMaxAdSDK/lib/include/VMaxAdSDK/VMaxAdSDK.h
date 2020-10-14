@@ -27,6 +27,8 @@ typedef NS_ENUM(NSUInteger, VMaxUserGestures) {
     GESTURE_SWIPE_UP,
     GESTURE_SWIPE_DOWN
 };
+
+
 //3.14.5 shorts..
 
 //3.12.10 VMaxMediaType refactored to MediaType
