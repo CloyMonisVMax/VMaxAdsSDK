@@ -39,7 +39,6 @@
 #import "VmaxTracker.h"
 #import "VmaxAdFactory.h"
 #import "VmaxAdTemplateListener.h"
-#import "VmaxDataListener.h"
 #import "VmaxTemplateHelper.h"
 #import "VmaxTrackerException.h"
 #import "VMaxAd.h"

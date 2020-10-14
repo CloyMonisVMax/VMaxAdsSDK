@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "VMaxAdView.h"
 // in data listener for now
 NS_ASSUME_NONNULL_BEGIN
 @interface VmaxAdSpot : NSObject

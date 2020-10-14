@@ -31,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign , nonatomic) NSInteger enableClickControl;
 @property (nonatomic, strong) VMaxMediationSelector *mediationSelector;
 @property (nonatomic , strong) NSMutableArray *mImpressionUrls;
+
+
 - (id)initWithName:(NSString *)payload showLogEvent:(BOOL)showLogEvent;
 - (void)parseAdData:(NSDictionary *)adData;
 - (void)setAdid:(NSString *)adId;
