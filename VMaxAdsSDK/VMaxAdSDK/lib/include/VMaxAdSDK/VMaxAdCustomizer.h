@@ -3,6 +3,7 @@
 
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface VMaxAdCustomizer : NSObject
 NS_ASSUME_NONNULL_BEGIN
