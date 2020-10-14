@@ -30,15 +30,15 @@
 		</data>
 		<key>Headers/VMaxAd.h</key>
 		<data>
-		QjE2XbSmi2b0LvswypK7eWpjd7U=
+		EC6pN5xllubpJFdPqBsDuqqactY=
 		</data>
 		<key>Headers/VMaxAdCustomizer.h</key>
 		<data>
-		Zg4xYY+b5Zw49KKyaOfnv9x18e0=
+		mforJdZL35cHfurntRBX5wX87Oc=
 		</data>
 		<key>Headers/VMaxAdDelegate.h</key>
 		<data>
-		BU+GmNulrxmIy95o/8wrwFL2CzM=
+		3NwKLVumNHmr+BibHCM6x5UosoQ=
 		</data>
 		<key>Headers/VMaxAdError.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/VMaxAdSDK.h</key>
 		<data>
-		+xFcKgdp0Rud6K3mGQB1ynrZ10k=
+		uckTeOYj3LvQplvIpX21IL+awXM=
 		</data>
 		<key>Headers/VMaxAdSettings.h</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Headers/VmaxDataListener.h</key>
 		<data>
-		w6TjO/CUuRQV40rPsJuxgNpNsZg=
+		Vc2h6ZlCC20PTB/IvlawuKNJVtY=
 		</data>
 		<key>Headers/VmaxOperationMediator.h</key>
 		<data>
@@ -457,21 +457,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rwJHOTbpx2LlnNKhDQnxIoSs8QIp2cgHHYNaidwnbmU=
+			uLtwPuVmIFC8sqWuTFoj/C3X1f2usNIQXnrAk67olfc=
 			</data>
 		</dict>
 		<key>Headers/VMaxAdCustomizer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BCFMVZTwf66nbx3c6ScBmOwtp/QMl/v76F8mfham6cQ=
+			FnFihYexu1+VUt8HnX7SUC7tvGwvF2qtmX3C7SD0JGY=
 			</data>
 		</dict>
 		<key>Headers/VMaxAdDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JsWVh41dYTy046ije+R3DfOcsN6FVLZdA4VAV+UfsW8=
+			sMX2xfSE+/myIG4ZZZXHH+pO52d2dpnkTE84qypwOJM=
 			</data>
 		</dict>
 		<key>Headers/VMaxAdError.h</key>
@@ -513,7 +513,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFow/8RavPDuKGin5q/+V3A2sL7obyVxbBAOtjJ9WpU=
+			WSVAgF7w904a2Ug66gnNlWzyrUSWrml/WiGM2tnEaQw=
 			</data>
 		</dict>
 		<key>Headers/VMaxAdSettings.h</key>
@@ -639,7 +639,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			frEQ92I4Evwf8xS94IWTIEH1REmvQ25Rx457BDsG8vc=
+			RAjGL77HSEKfSslG7ADc9D4Ho1BROZRCDHOw28BBJok=
 			</data>
 		</dict>
 		<key>Headers/VmaxOperationMediator.h</key>

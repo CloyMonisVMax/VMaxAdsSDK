@@ -6,6 +6,29 @@
 
 #import <CoreLocation/CoreLocation.h>
 
+//3.14.5 shorts
+typedef NS_ENUM(NSUInteger, AdOptionKey) {
+    SCREEN_TYPE
+};
+
+typedef NS_ENUM(NSUInteger, AdOptionValue) {
+    SCREEN_MID,
+    SCREEN_END
+};
+
+typedef NS_ENUM(NSUInteger, VmaxAdAsset) {
+    asset_ImageIcon,//brand page
+    asset_Title,//brand page
+    asset_Replay,
+    asset_False_Replay
+};
+
+typedef NS_ENUM(NSUInteger, VMaxUserGestures) {
+    GESTURE_SWIPE_UP,
+    GESTURE_SWIPE_DOWN
+};
+//3.14.5 shorts..
+
 //3.12.10 VMaxMediaType refactored to MediaType
 typedef NS_ENUM(NSUInteger, VMaxMediaType) {
     VMAX_MEDIA_TYPE_VIDEO,

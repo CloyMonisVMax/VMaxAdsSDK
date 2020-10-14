@@ -5,6 +5,7 @@
 #import <Foundation/Foundation.h>
 #import "CompanionInfo.h"
 #import "VmaxDataListener.h"
+#import "VMaxAdSDK.h"
 
 @class VMaxAdView;
 
