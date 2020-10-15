@@ -7,15 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "VMaxAdView.h"
+//#import "VMaxAdView.h"
+//#import "VMaxAdSDK.h"
+//#import "VMaxAdDelegate.h"
+//#import "VMaxAdPartner.h"
+//#import "VMaxNativeAd.h"
+//#import "VMaxVideoAd.h"
+//#import "VmaxAdTemplateListener.h"
+//#import "VMaxAdError.h"
+//#import "VmaxTracker.h"
+@class VMaxAdView;
+@class VmaxTracker;
 #import "VMaxAdSDK.h"
-#import "VMaxAdDelegate.h"
-#import "VMaxAdPartner.h"
-#import "VMaxNativeAd.h"
-#import "VMaxVideoAd.h"
-#import "VmaxAdTemplateListener.h"
-#import "VMaxAdError.h"
-#import "VmaxTracker.h"
 
 @class VmaxTracker;
 
