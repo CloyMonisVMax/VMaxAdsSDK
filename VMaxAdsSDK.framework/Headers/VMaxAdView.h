@@ -289,6 +289,7 @@ typedef NS_ENUM(NSUInteger, VMaxAdVideoTag) {
 @property (nonatomic) NSInteger inputBitrate;
 @property (nonatomic, strong) NSDictionary *moatLevelDictionary;
 @property (nonatomic) AVPlayer *playerObject;
+@property (nonatomic) AVPlayerLayer *playerLayer; //482 added
 @property (nonatomic) UIView *viewObject;
 @property (strong, nonatomic) NSLayoutConstraint *nativeAdChoiceTrialingConstraint; //..(3.6.46) Added
 @property (assign,nonatomic) int latencyPerAdFromConfig;//..(3.11.7) ADDED
@@ -406,7 +407,8 @@ typedef NS_ENUM(NSUInteger, VMaxAdVideoTag) {
  */
 // 3.14.5 shorts
 //-(void)prepareOrganicAd:(NSString *)ad headers:(NSDictionary *)headers;
--(void)prepareOrganicAd:(NSString *)ad headers:(NSDictionary *)headers adId:(NSString *)adId;
+//-(void)prepareOrganicAd:(NSString *)ad headers:(NSDictionary *)headers adId:(NSString *)adId;
+-(void)prepareOrganicAd:(NSString *)ad headers:(NSDictionary *)headers adId:(NSString *)adId fcapDict:(NSDictionary *)fcapDict cid:(NSString *)cid; //added for fcap shorts
 - (void)setAdOption:(AdOptionKey)adOptionKey adOptionValue:(AdOptionValue)adOptionValue;
 // 3.14.5 shorts
 

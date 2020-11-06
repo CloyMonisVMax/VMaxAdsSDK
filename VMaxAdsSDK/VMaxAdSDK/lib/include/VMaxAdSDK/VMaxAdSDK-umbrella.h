@@ -42,6 +42,7 @@
 #import "VmaxTrackerException.h"
 #import "VMaxAd.h"
 #import "VmaxAdSpot.h"
+#import "VmaxNativeAdLayoutFactory.h"
 
 #endif /* VMaxAdSDK_umbrella_h */
 

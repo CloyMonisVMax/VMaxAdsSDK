@@ -41,7 +41,8 @@ typedef NS_ENUM (NSInteger, ErrorCode) {
     kVMaxAdErrorDeviceMute = 1016,
     kVmaxAdErrorAdSkipped = 1032, // 3.11.7 Added
     kVmaxAdPodTimeout = 1031, // 3.11.7 Added
-    kVMaxMediaPlayerFailed = 1033 //3.12.1
+    kVMaxMediaPlayerFailed = 1033, //3.12.1
+    kVMaxAdErrorLayoutNotDefined = 1034 //3.14.6 NativeLayoutFactory
 };
 
 /**

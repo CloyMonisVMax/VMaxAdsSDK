@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)setTemplate:(NSDictionary *)templates;
 //- (VMaxAd *)getVmaxAdTemplate:(NSString *)templateName adData:(id)adData;
+- (NSString *)getTemplateSignatures; //ae param changes
 @end
 
 NS_ASSUME_NONNULL_END
