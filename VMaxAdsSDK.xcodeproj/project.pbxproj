@@ -7,90 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A63C579255AE74B00B13F39 /* VMaxAdSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C54F255AE74B00B13F39 /* VMaxAdSDKResources.bundle */; };
+		9A63C57A255AE74B00B13F39 /* VmaxAdFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C553255AE74B00B13F39 /* VmaxAdFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C57B255AE74B00B13F39 /* VMaxAdInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C554255AE74B00B13F39 /* VMaxAdInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C57C255AE74B00B13F39 /* VMaxVideoAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C555255AE74B00B13F39 /* VMaxVideoAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C57D255AE74B00B13F39 /* VMaxViewabilityTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C556255AE74B00B13F39 /* VMaxViewabilityTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C57E255AE74B00B13F39 /* VMaxAdPartner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C557255AE74B00B13F39 /* VMaxAdPartner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C57F255AE74B00B13F39 /* VMaxNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C558255AE74B00B13F39 /* VMaxNativeAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C580255AE74B00B13F39 /* VMaxAdCustomizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C559255AE74B00B13F39 /* VMaxAdCustomizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C581255AE74B00B13F39 /* VMAXPageCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C55A255AE74B00B13F39 /* VMAXPageCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C582255AE74B00B13F39 /* VMAXSectionCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C55B255AE74B00B13F39 /* VMAXSectionCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C583255AE74B00B13F39 /* IOperationInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C55C255AE74B00B13F39 /* IOperationInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C584255AE74B00B13F39 /* VMaxError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C55D255AE74B00B13F39 /* VMaxError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C585255AE74B00B13F39 /* VmaxTrackerException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C55E255AE74B00B13F39 /* VmaxTrackerException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C586255AE74B00B13F39 /* VMaxAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C55F255AE74B00B13F39 /* VMaxAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C587255AE74B00B13F39 /* IOperationEventReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C560255AE74B00B13F39 /* IOperationEventReceiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C588255AE74B00B13F39 /* VMaxCustomAdListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C561255AE74B00B13F39 /* VMaxCustomAdListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C589255AE74B00B13F39 /* VMaxAdSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C562255AE74B00B13F39 /* VMaxAdSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C58A255AE74B00B13F39 /* VMaxCustomAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C563255AE74B00B13F39 /* VMaxCustomAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C58B255AE74B00B13F39 /* VmaxDataListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C564255AE74B00B13F39 /* VmaxDataListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C58C255AE74B00B13F39 /* VmaxNativeAdLayoutFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C565255AE74B00B13F39 /* VmaxNativeAdLayoutFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C58D255AE74B00B13F39 /* VMaxCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C566255AE74B00B13F39 /* VMaxCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C58E255AE74B00B13F39 /* VMaxAdSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C567255AE74B00B13F39 /* VMaxAdSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C58F255AE74B00B13F39 /* VMaxAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C568255AE74B00B13F39 /* VMaxAdDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C590255AE74B00B13F39 /* VMaxAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C569255AE74B00B13F39 /* VMaxAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C591255AE74B00B13F39 /* VMaxRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C56A255AE74B00B13F39 /* VMaxRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C592255AE74B00B13F39 /* VMaxAdSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C56B255AE74B00B13F39 /* VMaxAdSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C593255AE74B00B13F39 /* VMaxViewabilityAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C56C255AE74B00B13F39 /* VMaxViewabilityAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C594255AE74B00B13F39 /* VmaxOperationMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C56D255AE74B00B13F39 /* VmaxOperationMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C595255AE74B00B13F39 /* VmaxAdTemplateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C56E255AE74B00B13F39 /* VmaxAdTemplateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C596255AE74B00B13F39 /* VMaxAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C56F255AE74B00B13F39 /* VMaxAdError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C597255AE74B00B13F39 /* VMaxMediaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C570255AE74B00B13F39 /* VMaxMediaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C598255AE74B00B13F39 /* VmaxAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C572255AE74B00B13F39 /* VmaxAdSpot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C599255AE74B00B13F39 /* ICompanionEventsReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C573255AE74B00B13F39 /* ICompanionEventsReceiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C59A255AE74B00B13F39 /* VMaxAdEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C574255AE74B00B13F39 /* VMaxAdEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C59B255AE74B00B13F39 /* VMaxCompanionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C575255AE74B00B13F39 /* VMaxCompanionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C59C255AE74B00B13F39 /* VmaxTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C576255AE74B00B13F39 /* VmaxTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C59D255AE74B00B13F39 /* CompanionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A63C577255AE74B00B13F39 /* CompanionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A63C59E255AE74C00B13F39 /* libVMaxAdSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A63C578255AE74B00B13F39 /* libVMaxAdSDK.a */; };
 		9A93BB7924E42C70009E394E /* VMaxAdsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A93BB7724E42C70009E394E /* VMaxAdsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE345F725556269002A8E76 /* VMaxAdSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9AE345CD25556269002A8E76 /* VMaxAdSDKResources.bundle */; };
-		9AE345F825556269002A8E76 /* VmaxAdFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345D125556269002A8E76 /* VmaxAdFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE345F925556269002A8E76 /* VMaxAdInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345D225556269002A8E76 /* VMaxAdInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE345FA25556269002A8E76 /* VMaxVideoAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345D325556269002A8E76 /* VMaxVideoAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE345FB25556269002A8E76 /* VMaxViewabilityTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345D425556269002A8E76 /* VMaxViewabilityTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE345FC25556269002A8E76 /* VMaxAdPartner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345D525556269002A8E76 /* VMaxAdPartner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE345FD25556269002A8E76 /* VMaxNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345D625556269002A8E76 /* VMaxNativeAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE345FE25556269002A8E76 /* VMaxAdCustomizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345D725556269002A8E76 /* VMaxAdCustomizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE345FF25556269002A8E76 /* VMAXPageCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345D825556269002A8E76 /* VMAXPageCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460025556269002A8E76 /* VMAXSectionCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345D925556269002A8E76 /* VMAXSectionCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460125556269002A8E76 /* IOperationInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345DA25556269002A8E76 /* IOperationInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460225556269002A8E76 /* VMaxError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345DB25556269002A8E76 /* VMaxError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460325556269002A8E76 /* VmaxTrackerException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345DC25556269002A8E76 /* VmaxTrackerException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460425556269002A8E76 /* VMaxAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345DD25556269002A8E76 /* VMaxAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460525556269002A8E76 /* IOperationEventReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345DE25556269002A8E76 /* IOperationEventReceiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460625556269002A8E76 /* VMaxCustomAdListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345DF25556269002A8E76 /* VMaxCustomAdListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460725556269002A8E76 /* VMaxAdSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345E025556269002A8E76 /* VMaxAdSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460825556269002A8E76 /* VMaxCustomAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345E125556269002A8E76 /* VMaxCustomAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460925556269002A8E76 /* VmaxDataListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345E225556269002A8E76 /* VmaxDataListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460A25556269002A8E76 /* VmaxNativeAdLayoutFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345E325556269002A8E76 /* VmaxNativeAdLayoutFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460B25556269002A8E76 /* VMaxCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345E425556269002A8E76 /* VMaxCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460C25556269002A8E76 /* VMaxAdSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345E525556269002A8E76 /* VMaxAdSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460D25556269002A8E76 /* VMaxAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345E625556269002A8E76 /* VMaxAdDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460E25556269002A8E76 /* VMaxAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345E725556269002A8E76 /* VMaxAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3460F25556269002A8E76 /* VMaxRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345E825556269002A8E76 /* VMaxRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461025556269002A8E76 /* VMaxAdSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345E925556269002A8E76 /* VMaxAdSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461125556269002A8E76 /* VMaxViewabilityAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345EA25556269002A8E76 /* VMaxViewabilityAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461225556269002A8E76 /* VmaxOperationMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345EB25556269002A8E76 /* VmaxOperationMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461325556269002A8E76 /* VmaxAdTemplateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345EC25556269002A8E76 /* VmaxAdTemplateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461425556269002A8E76 /* VMaxAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345ED25556269002A8E76 /* VMaxAdError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461525556269002A8E76 /* VMaxMediaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345EE25556269002A8E76 /* VMaxMediaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461625556269002A8E76 /* VmaxAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345F025556269002A8E76 /* VmaxAdSpot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461725556269002A8E76 /* ICompanionEventsReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345F125556269002A8E76 /* ICompanionEventsReceiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461825556269002A8E76 /* VMaxAdEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345F225556269002A8E76 /* VMaxAdEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461925556269002A8E76 /* VMaxCompanionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345F325556269002A8E76 /* VMaxCompanionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461A25556269002A8E76 /* VmaxTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345F425556269002A8E76 /* VmaxTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461B25556269002A8E76 /* CompanionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE345F525556269002A8E76 /* CompanionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE3461C2555626A002A8E76 /* libVMaxAdSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE345F625556269002A8E76 /* libVMaxAdSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A63C54F255AE74B00B13F39 /* VMaxAdSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VMaxAdSDKResources.bundle; sourceTree = "<group>"; };
+		9A63C553255AE74B00B13F39 /* VmaxAdFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxAdFactory.h; sourceTree = "<group>"; };
+		9A63C554255AE74B00B13F39 /* VMaxAdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdInfo.h; sourceTree = "<group>"; };
+		9A63C555255AE74B00B13F39 /* VMaxVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxVideoAd.h; sourceTree = "<group>"; };
+		9A63C556255AE74B00B13F39 /* VMaxViewabilityTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxViewabilityTracker.h; sourceTree = "<group>"; };
+		9A63C557255AE74B00B13F39 /* VMaxAdPartner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdPartner.h; sourceTree = "<group>"; };
+		9A63C558255AE74B00B13F39 /* VMaxNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxNativeAd.h; sourceTree = "<group>"; };
+		9A63C559255AE74B00B13F39 /* VMaxAdCustomizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdCustomizer.h; sourceTree = "<group>"; };
+		9A63C55A255AE74B00B13F39 /* VMAXPageCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMAXPageCategory.h; sourceTree = "<group>"; };
+		9A63C55B255AE74B00B13F39 /* VMAXSectionCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMAXSectionCategory.h; sourceTree = "<group>"; };
+		9A63C55C255AE74B00B13F39 /* IOperationInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOperationInterface.h; sourceTree = "<group>"; };
+		9A63C55D255AE74B00B13F39 /* VMaxError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxError.h; sourceTree = "<group>"; };
+		9A63C55E255AE74B00B13F39 /* VmaxTrackerException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxTrackerException.h; sourceTree = "<group>"; };
+		9A63C55F255AE74B00B13F39 /* VMaxAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAd.h; sourceTree = "<group>"; };
+		9A63C560255AE74B00B13F39 /* IOperationEventReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOperationEventReceiver.h; sourceTree = "<group>"; };
+		9A63C561255AE74B00B13F39 /* VMaxCustomAdListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxCustomAdListener.h; sourceTree = "<group>"; };
+		9A63C562255AE74B00B13F39 /* VMaxAdSDK-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMaxAdSDK-umbrella.h"; sourceTree = "<group>"; };
+		9A63C563255AE74B00B13F39 /* VMaxCustomAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxCustomAd.h; sourceTree = "<group>"; };
+		9A63C564255AE74B00B13F39 /* VmaxDataListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxDataListener.h; sourceTree = "<group>"; };
+		9A63C565255AE74B00B13F39 /* VmaxNativeAdLayoutFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxNativeAdLayoutFactory.h; sourceTree = "<group>"; };
+		9A63C566255AE74B00B13F39 /* VMaxCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxCache.h; sourceTree = "<group>"; };
+		9A63C567255AE74B00B13F39 /* VMaxAdSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdSDK.h; sourceTree = "<group>"; };
+		9A63C568255AE74B00B13F39 /* VMaxAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdDelegate.h; sourceTree = "<group>"; };
+		9A63C569255AE74B00B13F39 /* VMaxAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdView.h; sourceTree = "<group>"; };
+		9A63C56A255AE74B00B13F39 /* VMaxRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxRequest.h; sourceTree = "<group>"; };
+		9A63C56B255AE74B00B13F39 /* VMaxAdSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdSettings.h; sourceTree = "<group>"; };
+		9A63C56C255AE74B00B13F39 /* VMaxViewabilityAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxViewabilityAd.h; sourceTree = "<group>"; };
+		9A63C56D255AE74B00B13F39 /* VmaxOperationMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxOperationMediator.h; sourceTree = "<group>"; };
+		9A63C56E255AE74B00B13F39 /* VmaxAdTemplateListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxAdTemplateListener.h; sourceTree = "<group>"; };
+		9A63C56F255AE74B00B13F39 /* VMaxAdError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdError.h; sourceTree = "<group>"; };
+		9A63C570255AE74B00B13F39 /* VMaxMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxMediaView.h; sourceTree = "<group>"; };
+		9A63C571255AE74B00B13F39 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		9A63C572255AE74B00B13F39 /* VmaxAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxAdSpot.h; sourceTree = "<group>"; };
+		9A63C573255AE74B00B13F39 /* ICompanionEventsReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICompanionEventsReceiver.h; sourceTree = "<group>"; };
+		9A63C574255AE74B00B13F39 /* VMaxAdEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdEvent.h; sourceTree = "<group>"; };
+		9A63C575255AE74B00B13F39 /* VMaxCompanionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxCompanionDelegate.h; sourceTree = "<group>"; };
+		9A63C576255AE74B00B13F39 /* VmaxTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxTracker.h; sourceTree = "<group>"; };
+		9A63C577255AE74B00B13F39 /* CompanionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanionInfo.h; sourceTree = "<group>"; };
+		9A63C578255AE74B00B13F39 /* libVMaxAdSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVMaxAdSDK.a; sourceTree = "<group>"; };
 		9A93BB7424E42C70009E394E /* VMaxAdsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VMaxAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A93BB7724E42C70009E394E /* VMaxAdsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMaxAdsSDK.h; sourceTree = "<group>"; };
 		9A93BB7824E42C70009E394E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AE345CD25556269002A8E76 /* VMaxAdSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VMaxAdSDKResources.bundle; sourceTree = "<group>"; };
-		9AE345D125556269002A8E76 /* VmaxAdFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxAdFactory.h; sourceTree = "<group>"; };
-		9AE345D225556269002A8E76 /* VMaxAdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdInfo.h; sourceTree = "<group>"; };
-		9AE345D325556269002A8E76 /* VMaxVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxVideoAd.h; sourceTree = "<group>"; };
-		9AE345D425556269002A8E76 /* VMaxViewabilityTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxViewabilityTracker.h; sourceTree = "<group>"; };
-		9AE345D525556269002A8E76 /* VMaxAdPartner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdPartner.h; sourceTree = "<group>"; };
-		9AE345D625556269002A8E76 /* VMaxNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxNativeAd.h; sourceTree = "<group>"; };
-		9AE345D725556269002A8E76 /* VMaxAdCustomizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdCustomizer.h; sourceTree = "<group>"; };
-		9AE345D825556269002A8E76 /* VMAXPageCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMAXPageCategory.h; sourceTree = "<group>"; };
-		9AE345D925556269002A8E76 /* VMAXSectionCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMAXSectionCategory.h; sourceTree = "<group>"; };
-		9AE345DA25556269002A8E76 /* IOperationInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOperationInterface.h; sourceTree = "<group>"; };
-		9AE345DB25556269002A8E76 /* VMaxError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxError.h; sourceTree = "<group>"; };
-		9AE345DC25556269002A8E76 /* VmaxTrackerException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxTrackerException.h; sourceTree = "<group>"; };
-		9AE345DD25556269002A8E76 /* VMaxAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAd.h; sourceTree = "<group>"; };
-		9AE345DE25556269002A8E76 /* IOperationEventReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOperationEventReceiver.h; sourceTree = "<group>"; };
-		9AE345DF25556269002A8E76 /* VMaxCustomAdListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxCustomAdListener.h; sourceTree = "<group>"; };
-		9AE345E025556269002A8E76 /* VMaxAdSDK-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMaxAdSDK-umbrella.h"; sourceTree = "<group>"; };
-		9AE345E125556269002A8E76 /* VMaxCustomAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxCustomAd.h; sourceTree = "<group>"; };
-		9AE345E225556269002A8E76 /* VmaxDataListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxDataListener.h; sourceTree = "<group>"; };
-		9AE345E325556269002A8E76 /* VmaxNativeAdLayoutFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxNativeAdLayoutFactory.h; sourceTree = "<group>"; };
-		9AE345E425556269002A8E76 /* VMaxCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxCache.h; sourceTree = "<group>"; };
-		9AE345E525556269002A8E76 /* VMaxAdSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdSDK.h; sourceTree = "<group>"; };
-		9AE345E625556269002A8E76 /* VMaxAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdDelegate.h; sourceTree = "<group>"; };
-		9AE345E725556269002A8E76 /* VMaxAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdView.h; sourceTree = "<group>"; };
-		9AE345E825556269002A8E76 /* VMaxRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxRequest.h; sourceTree = "<group>"; };
-		9AE345E925556269002A8E76 /* VMaxAdSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdSettings.h; sourceTree = "<group>"; };
-		9AE345EA25556269002A8E76 /* VMaxViewabilityAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxViewabilityAd.h; sourceTree = "<group>"; };
-		9AE345EB25556269002A8E76 /* VmaxOperationMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxOperationMediator.h; sourceTree = "<group>"; };
-		9AE345EC25556269002A8E76 /* VmaxAdTemplateListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxAdTemplateListener.h; sourceTree = "<group>"; };
-		9AE345ED25556269002A8E76 /* VMaxAdError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdError.h; sourceTree = "<group>"; };
-		9AE345EE25556269002A8E76 /* VMaxMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxMediaView.h; sourceTree = "<group>"; };
-		9AE345EF25556269002A8E76 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		9AE345F025556269002A8E76 /* VmaxAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxAdSpot.h; sourceTree = "<group>"; };
-		9AE345F125556269002A8E76 /* ICompanionEventsReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICompanionEventsReceiver.h; sourceTree = "<group>"; };
-		9AE345F225556269002A8E76 /* VMaxAdEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxAdEvent.h; sourceTree = "<group>"; };
-		9AE345F325556269002A8E76 /* VMaxCompanionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaxCompanionDelegate.h; sourceTree = "<group>"; };
-		9AE345F425556269002A8E76 /* VmaxTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmaxTracker.h; sourceTree = "<group>"; };
-		9AE345F525556269002A8E76 /* CompanionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanionInfo.h; sourceTree = "<group>"; };
-		9AE345F625556269002A8E76 /* libVMaxAdSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVMaxAdSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,13 +98,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE3461C2555626A002A8E76 /* libVMaxAdSDK.a in Frameworks */,
+				9A63C59E255AE74C00B13F39 /* libVMaxAdSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A63C54E255AE74B00B13F39 /* VMaxAdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9A63C54F255AE74B00B13F39 /* VMaxAdSDKResources.bundle */,
+				9A63C550255AE74B00B13F39 /* lib */,
+			);
+			path = VMaxAdSDK;
+			sourceTree = "<group>";
+		};
+		9A63C550255AE74B00B13F39 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9A63C551255AE74B00B13F39 /* include */,
+				9A63C578255AE74B00B13F39 /* libVMaxAdSDK.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		9A63C551255AE74B00B13F39 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9A63C552255AE74B00B13F39 /* VMaxAdSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		9A63C552255AE74B00B13F39 /* VMaxAdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9A63C553255AE74B00B13F39 /* VmaxAdFactory.h */,
+				9A63C554255AE74B00B13F39 /* VMaxAdInfo.h */,
+				9A63C555255AE74B00B13F39 /* VMaxVideoAd.h */,
+				9A63C556255AE74B00B13F39 /* VMaxViewabilityTracker.h */,
+				9A63C557255AE74B00B13F39 /* VMaxAdPartner.h */,
+				9A63C558255AE74B00B13F39 /* VMaxNativeAd.h */,
+				9A63C559255AE74B00B13F39 /* VMaxAdCustomizer.h */,
+				9A63C55A255AE74B00B13F39 /* VMAXPageCategory.h */,
+				9A63C55B255AE74B00B13F39 /* VMAXSectionCategory.h */,
+				9A63C55C255AE74B00B13F39 /* IOperationInterface.h */,
+				9A63C55D255AE74B00B13F39 /* VMaxError.h */,
+				9A63C55E255AE74B00B13F39 /* VmaxTrackerException.h */,
+				9A63C55F255AE74B00B13F39 /* VMaxAd.h */,
+				9A63C560255AE74B00B13F39 /* IOperationEventReceiver.h */,
+				9A63C561255AE74B00B13F39 /* VMaxCustomAdListener.h */,
+				9A63C562255AE74B00B13F39 /* VMaxAdSDK-umbrella.h */,
+				9A63C563255AE74B00B13F39 /* VMaxCustomAd.h */,
+				9A63C564255AE74B00B13F39 /* VmaxDataListener.h */,
+				9A63C565255AE74B00B13F39 /* VmaxNativeAdLayoutFactory.h */,
+				9A63C566255AE74B00B13F39 /* VMaxCache.h */,
+				9A63C567255AE74B00B13F39 /* VMaxAdSDK.h */,
+				9A63C568255AE74B00B13F39 /* VMaxAdDelegate.h */,
+				9A63C569255AE74B00B13F39 /* VMaxAdView.h */,
+				9A63C56A255AE74B00B13F39 /* VMaxRequest.h */,
+				9A63C56B255AE74B00B13F39 /* VMaxAdSettings.h */,
+				9A63C56C255AE74B00B13F39 /* VMaxViewabilityAd.h */,
+				9A63C56D255AE74B00B13F39 /* VmaxOperationMediator.h */,
+				9A63C56E255AE74B00B13F39 /* VmaxAdTemplateListener.h */,
+				9A63C56F255AE74B00B13F39 /* VMaxAdError.h */,
+				9A63C570255AE74B00B13F39 /* VMaxMediaView.h */,
+				9A63C571255AE74B00B13F39 /* module.modulemap */,
+				9A63C572255AE74B00B13F39 /* VmaxAdSpot.h */,
+				9A63C573255AE74B00B13F39 /* ICompanionEventsReceiver.h */,
+				9A63C574255AE74B00B13F39 /* VMaxAdEvent.h */,
+				9A63C575255AE74B00B13F39 /* VMaxCompanionDelegate.h */,
+				9A63C576255AE74B00B13F39 /* VmaxTracker.h */,
+				9A63C577255AE74B00B13F39 /* CompanionInfo.h */,
+			);
+			path = VMaxAdSDK;
+			sourceTree = "<group>";
+		};
 		9A93BB6A24E42C70009E394E = {
 			isa = PBXGroup;
 			children = (
@@ -124,81 +194,11 @@
 		9A93BB7624E42C70009E394E /* VMaxAdsSDK */ = {
 			isa = PBXGroup;
 			children = (
-				9AE345CC25556269002A8E76 /* VMaxAdSDK */,
+				9A63C54E255AE74B00B13F39 /* VMaxAdSDK */,
 				9A93BB7724E42C70009E394E /* VMaxAdsSDK.h */,
 				9A93BB7824E42C70009E394E /* Info.plist */,
 			);
 			path = VMaxAdsSDK;
-			sourceTree = "<group>";
-		};
-		9AE345CC25556269002A8E76 /* VMaxAdSDK */ = {
-			isa = PBXGroup;
-			children = (
-				9AE345CD25556269002A8E76 /* VMaxAdSDKResources.bundle */,
-				9AE345CE25556269002A8E76 /* lib */,
-			);
-			path = VMaxAdSDK;
-			sourceTree = "<group>";
-		};
-		9AE345CE25556269002A8E76 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				9AE345CF25556269002A8E76 /* include */,
-				9AE345F625556269002A8E76 /* libVMaxAdSDK.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		9AE345CF25556269002A8E76 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				9AE345D025556269002A8E76 /* VMaxAdSDK */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		9AE345D025556269002A8E76 /* VMaxAdSDK */ = {
-			isa = PBXGroup;
-			children = (
-				9AE345D125556269002A8E76 /* VmaxAdFactory.h */,
-				9AE345D225556269002A8E76 /* VMaxAdInfo.h */,
-				9AE345D325556269002A8E76 /* VMaxVideoAd.h */,
-				9AE345D425556269002A8E76 /* VMaxViewabilityTracker.h */,
-				9AE345D525556269002A8E76 /* VMaxAdPartner.h */,
-				9AE345D625556269002A8E76 /* VMaxNativeAd.h */,
-				9AE345D725556269002A8E76 /* VMaxAdCustomizer.h */,
-				9AE345D825556269002A8E76 /* VMAXPageCategory.h */,
-				9AE345D925556269002A8E76 /* VMAXSectionCategory.h */,
-				9AE345DA25556269002A8E76 /* IOperationInterface.h */,
-				9AE345DB25556269002A8E76 /* VMaxError.h */,
-				9AE345DC25556269002A8E76 /* VmaxTrackerException.h */,
-				9AE345DD25556269002A8E76 /* VMaxAd.h */,
-				9AE345DE25556269002A8E76 /* IOperationEventReceiver.h */,
-				9AE345DF25556269002A8E76 /* VMaxCustomAdListener.h */,
-				9AE345E025556269002A8E76 /* VMaxAdSDK-umbrella.h */,
-				9AE345E125556269002A8E76 /* VMaxCustomAd.h */,
-				9AE345E225556269002A8E76 /* VmaxDataListener.h */,
-				9AE345E325556269002A8E76 /* VmaxNativeAdLayoutFactory.h */,
-				9AE345E425556269002A8E76 /* VMaxCache.h */,
-				9AE345E525556269002A8E76 /* VMaxAdSDK.h */,
-				9AE345E625556269002A8E76 /* VMaxAdDelegate.h */,
-				9AE345E725556269002A8E76 /* VMaxAdView.h */,
-				9AE345E825556269002A8E76 /* VMaxRequest.h */,
-				9AE345E925556269002A8E76 /* VMaxAdSettings.h */,
-				9AE345EA25556269002A8E76 /* VMaxViewabilityAd.h */,
-				9AE345EB25556269002A8E76 /* VmaxOperationMediator.h */,
-				9AE345EC25556269002A8E76 /* VmaxAdTemplateListener.h */,
-				9AE345ED25556269002A8E76 /* VMaxAdError.h */,
-				9AE345EE25556269002A8E76 /* VMaxMediaView.h */,
-				9AE345EF25556269002A8E76 /* module.modulemap */,
-				9AE345F025556269002A8E76 /* VmaxAdSpot.h */,
-				9AE345F125556269002A8E76 /* ICompanionEventsReceiver.h */,
-				9AE345F225556269002A8E76 /* VMaxAdEvent.h */,
-				9AE345F325556269002A8E76 /* VMaxCompanionDelegate.h */,
-				9AE345F425556269002A8E76 /* VmaxTracker.h */,
-				9AE345F525556269002A8E76 /* CompanionInfo.h */,
-			);
-			path = VMaxAdSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,43 +208,43 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE3461025556269002A8E76 /* VMaxAdSettings.h in Headers */,
-				9AE3460F25556269002A8E76 /* VMaxRequest.h in Headers */,
-				9AE3460C25556269002A8E76 /* VMaxAdSDK.h in Headers */,
-				9AE3461225556269002A8E76 /* VmaxOperationMediator.h in Headers */,
-				9AE345F925556269002A8E76 /* VMaxAdInfo.h in Headers */,
-				9AE3460925556269002A8E76 /* VmaxDataListener.h in Headers */,
-				9AE3460B25556269002A8E76 /* VMaxCache.h in Headers */,
-				9AE3460D25556269002A8E76 /* VMaxAdDelegate.h in Headers */,
-				9AE3461B25556269002A8E76 /* CompanionInfo.h in Headers */,
-				9AE3461425556269002A8E76 /* VMaxAdError.h in Headers */,
-				9AE3461625556269002A8E76 /* VmaxAdSpot.h in Headers */,
-				9AE345FD25556269002A8E76 /* VMaxNativeAd.h in Headers */,
-				9AE3460E25556269002A8E76 /* VMaxAdView.h in Headers */,
-				9AE3460025556269002A8E76 /* VMAXSectionCategory.h in Headers */,
-				9AE3460325556269002A8E76 /* VmaxTrackerException.h in Headers */,
-				9AE3461725556269002A8E76 /* ICompanionEventsReceiver.h in Headers */,
-				9AE345F825556269002A8E76 /* VmaxAdFactory.h in Headers */,
-				9AE345FC25556269002A8E76 /* VMaxAdPartner.h in Headers */,
+				9A63C592255AE74B00B13F39 /* VMaxAdSettings.h in Headers */,
+				9A63C591255AE74B00B13F39 /* VMaxRequest.h in Headers */,
+				9A63C58E255AE74B00B13F39 /* VMaxAdSDK.h in Headers */,
+				9A63C594255AE74B00B13F39 /* VmaxOperationMediator.h in Headers */,
+				9A63C57B255AE74B00B13F39 /* VMaxAdInfo.h in Headers */,
+				9A63C58B255AE74B00B13F39 /* VmaxDataListener.h in Headers */,
+				9A63C58D255AE74B00B13F39 /* VMaxCache.h in Headers */,
+				9A63C58F255AE74B00B13F39 /* VMaxAdDelegate.h in Headers */,
+				9A63C59D255AE74B00B13F39 /* CompanionInfo.h in Headers */,
+				9A63C596255AE74B00B13F39 /* VMaxAdError.h in Headers */,
+				9A63C598255AE74B00B13F39 /* VmaxAdSpot.h in Headers */,
+				9A63C57F255AE74B00B13F39 /* VMaxNativeAd.h in Headers */,
+				9A63C590255AE74B00B13F39 /* VMaxAdView.h in Headers */,
+				9A63C582255AE74B00B13F39 /* VMAXSectionCategory.h in Headers */,
+				9A63C585255AE74B00B13F39 /* VmaxTrackerException.h in Headers */,
+				9A63C599255AE74B00B13F39 /* ICompanionEventsReceiver.h in Headers */,
+				9A63C57A255AE74B00B13F39 /* VmaxAdFactory.h in Headers */,
+				9A63C57E255AE74B00B13F39 /* VMaxAdPartner.h in Headers */,
 				9A93BB7924E42C70009E394E /* VMaxAdsSDK.h in Headers */,
-				9AE3461825556269002A8E76 /* VMaxAdEvent.h in Headers */,
-				9AE3461525556269002A8E76 /* VMaxMediaView.h in Headers */,
-				9AE3460425556269002A8E76 /* VMaxAd.h in Headers */,
-				9AE3460825556269002A8E76 /* VMaxCustomAd.h in Headers */,
-				9AE3461125556269002A8E76 /* VMaxViewabilityAd.h in Headers */,
-				9AE3460525556269002A8E76 /* IOperationEventReceiver.h in Headers */,
-				9AE3461925556269002A8E76 /* VMaxCompanionDelegate.h in Headers */,
-				9AE3461325556269002A8E76 /* VmaxAdTemplateListener.h in Headers */,
-				9AE3460A25556269002A8E76 /* VmaxNativeAdLayoutFactory.h in Headers */,
-				9AE3461A25556269002A8E76 /* VmaxTracker.h in Headers */,
-				9AE3460725556269002A8E76 /* VMaxAdSDK-umbrella.h in Headers */,
-				9AE3460125556269002A8E76 /* IOperationInterface.h in Headers */,
-				9AE345FA25556269002A8E76 /* VMaxVideoAd.h in Headers */,
-				9AE345FE25556269002A8E76 /* VMaxAdCustomizer.h in Headers */,
-				9AE345FF25556269002A8E76 /* VMAXPageCategory.h in Headers */,
-				9AE345FB25556269002A8E76 /* VMaxViewabilityTracker.h in Headers */,
-				9AE3460625556269002A8E76 /* VMaxCustomAdListener.h in Headers */,
-				9AE3460225556269002A8E76 /* VMaxError.h in Headers */,
+				9A63C59A255AE74B00B13F39 /* VMaxAdEvent.h in Headers */,
+				9A63C597255AE74B00B13F39 /* VMaxMediaView.h in Headers */,
+				9A63C586255AE74B00B13F39 /* VMaxAd.h in Headers */,
+				9A63C58A255AE74B00B13F39 /* VMaxCustomAd.h in Headers */,
+				9A63C593255AE74B00B13F39 /* VMaxViewabilityAd.h in Headers */,
+				9A63C587255AE74B00B13F39 /* IOperationEventReceiver.h in Headers */,
+				9A63C59B255AE74B00B13F39 /* VMaxCompanionDelegate.h in Headers */,
+				9A63C595255AE74B00B13F39 /* VmaxAdTemplateListener.h in Headers */,
+				9A63C58C255AE74B00B13F39 /* VmaxNativeAdLayoutFactory.h in Headers */,
+				9A63C59C255AE74B00B13F39 /* VmaxTracker.h in Headers */,
+				9A63C589255AE74B00B13F39 /* VMaxAdSDK-umbrella.h in Headers */,
+				9A63C583255AE74B00B13F39 /* IOperationInterface.h in Headers */,
+				9A63C57C255AE74B00B13F39 /* VMaxVideoAd.h in Headers */,
+				9A63C580255AE74B00B13F39 /* VMaxAdCustomizer.h in Headers */,
+				9A63C581255AE74B00B13F39 /* VMAXPageCategory.h in Headers */,
+				9A63C57D255AE74B00B13F39 /* VMaxViewabilityTracker.h in Headers */,
+				9A63C588255AE74B00B13F39 /* VMaxCustomAdListener.h in Headers */,
+				9A63C584255AE74B00B13F39 /* VMaxError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE345F725556269002A8E76 /* VMaxAdSDKResources.bundle in Resources */,
+				9A63C579255AE74B00B13F39 /* VMaxAdSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
