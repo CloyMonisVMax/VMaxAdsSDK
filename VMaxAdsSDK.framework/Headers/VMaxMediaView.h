@@ -135,4 +135,9 @@
 
 - (void)removeAsSuperviewObserver;
 
+//838.2
+@property (strong,nonatomic) NSString* previewImage;
+@property (assign,nonatomic) BOOL loop;
+//..
+
 @end
