@@ -32,4 +32,5 @@
 - (void)fetchVMAPXml;
 - (NSString *)getVMAPXML;
 -(VMaxViewabilityTracker *)getViewabilityTracker;
+
 @end

@@ -22,6 +22,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)handleOperations:(NSString *_Nullable)schemeUrl withReceiver:(id<IOperationEventReceiver>)receiver withViewController:(UIViewController*)viewController;
 
+//hc
+- (void)handleOperation:(NSString *_Nullable)data withEventUrl:(NSString *)eventUrl;
+//..
+
 @end
 
 NS_ASSUME_NONNULL_END

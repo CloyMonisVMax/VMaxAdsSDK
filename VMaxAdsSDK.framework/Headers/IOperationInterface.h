@@ -17,6 +17,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)onUserInteraction:(NSString *_Nullable)data withReceiver:(id<IOperationEventReceiver>)receiver andViewController:(UIViewController*)viewController;
 
+//hc
+-(void)onUserInteraction:(NSString *_Nullable)data withEventUrl:(NSString *)eventUrl;
+//..
+
 @end
 
 NS_ASSUME_NONNULL_END
