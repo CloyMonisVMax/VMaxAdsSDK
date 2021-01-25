@@ -15,4 +15,5 @@
 - (void)doPause:(NSString *)masterAdViewId withAdSlotId:(NSString *)adSlotId;
 - (void)doResume:(NSString *)masterAdViewId withAdSlotId:(NSString *)adSlotId;
 - (void)doUpdate:(NSString*)masterAdViewId withMessage:(NSString*)message;//LeadGen
+- (void)onCompanionError; //3.14.7 Errors_ 603
 @end
