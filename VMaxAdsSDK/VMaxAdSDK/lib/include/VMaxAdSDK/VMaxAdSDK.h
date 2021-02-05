@@ -194,5 +194,7 @@ typedef NS_ENUM(NSUInteger, Environment) {
 +(void)setUserState:(NSString *)state;
 //..
 
++(void)requestIDFA:(void (^)(void))completionBlock;//3.14.8
+
 NS_ASSUME_NONNULL_END
 @end
