@@ -28,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)doUpdate:(NSString*)message;
 
+-(void)getContentHeight:(void(^)(int))webContentHeight; //3.14.9 companion adaptive
+
 @end
 
 NS_ASSUME_NONNULL_END

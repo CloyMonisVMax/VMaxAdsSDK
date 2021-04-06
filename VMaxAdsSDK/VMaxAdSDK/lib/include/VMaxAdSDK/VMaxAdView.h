@@ -570,7 +570,10 @@ typedef NS_ENUM(NSUInteger,VMaxCompanionState) {
     STATE_AD_CONSUMED
 };
 
-@property (nonatomic,assign) VMaxAdType adType;
+//3.14.9 VMaxAdType refactor
+//@property (nonatomic,assign) VMaxAdType adType;
+-(void)setAdType:(VMaxAdType)adType;
+//..
 
 @property (nonatomic) VMaxCompanionState companionState;
 

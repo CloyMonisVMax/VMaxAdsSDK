@@ -194,7 +194,11 @@ typedef NS_ENUM(NSUInteger, Environment) {
 +(void)setUserState:(NSString *)state;
 //..
 
-+(void)requestIDFA:(void (^)(void))completionBlock;//3.14.8
++(void)requestIDFA:(void (^)(void))completionBlock;//3.14.8 //3.14.4 JIO
+
+//3.14.11 Jio 3.14.1 ppid story
++(NSString *)getPPID:(NSString *)adSpot;
+//..
 
 NS_ASSUME_NONNULL_END
 @end

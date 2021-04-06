@@ -111,7 +111,7 @@
 
 - (void)onAdReceived:(VMaxAdView *)adView; //3.13.1
 
-- (void)onAdMediaProgress:(VMaxMediaProgress)mediaProgress withAdView:(VMaxAdView *)adView;
+- (void)onAdMediaProgress:(NSInteger)currentDuration withTotalDuration:(NSInteger)totalDuration withAdView:(VMaxAdView *)adView; //3.14.12 Jio 3.14.5
 
 //3.14.1.3 EventsForKaltura
 - (void)onAdMediaScreenClickedOrTapped;
