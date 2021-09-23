@@ -47,6 +47,10 @@
 #import "VMaxAdTracker.h"
 #import "VmaxRequestListener.h"
 #import "VMaxOrganicRequest.h"
+#import "VMaxAdEvents.h"
+#import "VMaxAdBreakEvents.h"
+#import "VMaxAdMetaData.h"
+#import "VMaxAdBreak.h"
 
 #endif /* VMaxAdSDK_umbrella_h */
 

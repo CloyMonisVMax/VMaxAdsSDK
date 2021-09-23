@@ -56,3 +56,7 @@ FOUNDATION_EXPORT const unsigned char VMaxAdsSDKVersionString[];
 #import "VMaxAdTracker.h"
 #import "VmaxRequestListener.h"
 #import "VMaxOrganicRequest.h"
+#import "VMaxAdEvents.h"
+#import "VMaxAdBreakEvents.h"
+#import "VMaxAdMetaData.h"
+#import "VMaxAdBreak.h"

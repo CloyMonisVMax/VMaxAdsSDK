@@ -216,7 +216,8 @@ typedef NS_ENUM(NSUInteger,VMaxAdVideoTag) {
     vmax_video_expand,
     vmax_video_skip_action,
     vmax_video_ad_text,
-    vmax_video_companion
+    vmax_video_companion,
+    vmax_video_player_container_superview
     
 };
 //3.14.1.1 Video tagging
@@ -293,7 +294,7 @@ typedef NS_ENUM(NSUInteger, VMaxAdVideoTag) {
 @property (nonatomic) UIView *viewObject;
 @property (strong, nonatomic) NSLayoutConstraint *nativeAdChoiceTrialingConstraint; //..(3.6.46) Added
 @property (assign,nonatomic) int latencyPerAdFromConfig;//..(3.11.7) ADDED
-@property (weak, nonatomic) id<VMaxCompanionDelegate> delegateCompanion; //3.14.3 S_476 pa
+@property (strong, nonatomic) id<VMaxCompanionDelegate> delegateCompanion; //3.14.3 S_476 pa
 
 - (NSDictionary*)getAdditionalParameters;
 
@@ -583,14 +584,16 @@ typedef NS_ENUM(NSUInteger,VMaxCompanionState) {
 
 #pragma mark Vmax Plugin Layout getAdParams
 
-@property(nonatomic) NSMutableDictionary *adParams;
-@property(nonatomic) VmaxAdInfo *adInfo;
+//3.14.9 @property(nonatomic) NSMutableDictionary *adParams;
+@property (nonatomic) VmaxAdInfo *adInfo;
 
-/*!
-@function      getAdditionalParameters:
-@abstract      getting AdParams Object From the VAST document
-*/
-- (NSDictionary*)getAdParams;
+//3.14.9
+///*!
+//@function      getAdditionalParameters:
+//@abstract      getting AdParams Object From the VAST document
+//*/
+//- (NSDictionary*)getAdParams;
+
 
 @end
 

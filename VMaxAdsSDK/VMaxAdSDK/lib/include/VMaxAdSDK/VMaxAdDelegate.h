@@ -120,15 +120,18 @@
 
 - (void)onAdResumed:(VMaxAdView *)adView;
 
-- (void)onAdMediaFirstQuartile;
+- (void)onAdMediaFirstQuartile:(VMaxAdView *)adView;
 
-- (void)onAdMediaMidpoint;
+- (void)onAdMediaMidpoint:(VMaxAdView *)adView;
 
-- (void)onAdMediaThirdQuartile;
+- (void)onAdMediaThirdQuartile:(VMaxAdView *)adView;
 
-- (void)onAdImpression;
+- (void)onAdImpression:(VMaxAdView *)adView;
 
 - (void)onAdSkipped:(VMaxAdView *)adView;
 //3.14.1.3 EventsForKaltura
+
+- (void)onAdMediaBitrateChange:(float)bitrate; //3.14.9
+
 
 @end

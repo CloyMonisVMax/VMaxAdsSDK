@@ -16,6 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic) NSInteger width;
 
+@property (strong, nonatomic) id<VMaxCompanionDelegate> delegateCompanion;
+
+@property (strong, nonatomic) VMaxAdView *adView;
+
 - (instancetype) initWithDictionary:(NSDictionary *)dictionary andHostVC:(UIViewController *)hostVC andVMaxAddress:(NSString *)vmaxAddress;
 
 -(NSString*)getMarkup;
