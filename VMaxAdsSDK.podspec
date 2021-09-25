@@ -1,17 +1,17 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "VMaxAdsSDK"
-  spec.version      = "0.0.76"
+  spec.version      = "0.0.77"
   spec.summary      = "VMaxAdsSdk framework enables to integrate ads"
   spec.description  = "VMaxAdsSdk framework provides all display ads,native ads,video and audio ads"
   spec.homepage     = "https://github.com/CloyMonisVMax/VMaxAdsSDK"
   spec.license      = "MIT"
   spec.author       = { "Cloy Monis" => "cloy.m@vserv.com" }
   spec.platform = :ios, "10.0"
-  #spec.source       = { :http => "https://github.com/CloyMonisVMax/VMaxAdsSDK/archive/0.0.76.zip"}
-  spec.source       = { :git => "https://github.com/CloyMonisVMax/VMaxAdsSDK.git" , :tag => "0.0.76"}
+  #spec.source       = { :http => "https://github.com/CloyMonisVMax/VMaxAdsSDK/archive/0.0.77.zip"}
+  spec.source       = { :git => "https://github.com/CloyMonisVMax/VMaxAdsSDK.git" , :tag => "0.0.77"}
   spec.ios.deployment_target = "10.0"
-  #spec.ios.vendored_frameworks = "VMaxAdsSDK-0.0.76/VMaxAdsSDK/VMaxAdsSDK.framework"
+  #spec.ios.vendored_frameworks = "VMaxAdsSDK-0.0.77/VMaxAdsSDK/VMaxAdsSDK.framework"
   #spec.ios.vendored_frameworks = "VMaxAdsSDK/VMaxAdsSDK.framework"
   #spec.source_files = "VMaxAdsSDK/*"
   spec.ios.vendored_frameworks = "VMaxAdsSDK.framework"
