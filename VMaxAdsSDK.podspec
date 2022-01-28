@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "VMaxAdsSDK"
-  spec.version      = "0.0.97"
+  spec.version      = "0.0.98"
   spec.summary      = "VMaxAdsSdk framework enables to integrate ads"
   spec.description  = "VMaxAdsSdk framework provides all display ads,native ads,video and audio ads"
   spec.homepage     = "https://github.com/CloyMonisVMax/VMaxAdsSDK"
@@ -11,5 +11,8 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/CloyMonisVMax/VMaxAdsSDK.git" , :tag => "0.0.96"}
   spec.ios.deployment_target = "10.0"
   spec.ios.vendored_frameworks = "VMaxAdsSDK.xcframework"
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+
   
 end
