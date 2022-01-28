@@ -1,0 +1,12 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -scheme VMaxAdsSDK -archivePath /Users/cloymonis/VServWorkspace/Git_Source/github/CocoaPods/VMaxAdsSDK/archives/VMaxAdsSDK-iOS-Sim.xcarchive -destination "generic/platform=iOS Simulator" -sdk iphonesimulator SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES -
+
+User defaults from command line:
+    IDEArchivePathOverride = /Users/cloymonis/VServWorkspace/Git_Source/github/CocoaPods/VMaxAdsSDK/archives/VMaxAdsSDK-iOS-Sim.xcarchive
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Build settings from command line:
+    BUILD_LIBRARY_FOR_DISTRIBUTION = YES
+    SDKROOT = iphonesimulator15.2
+    SKIP_INSTALL = NO
+
