@@ -11,5 +11,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/CloyMonisVMax/VMaxAdsSDK.git" , :tag => "0.0.108"}
   spec.ios.deployment_target = "10.0"
   spec.vendored_frameworks = "VMaxAdsSDK.xcframework" , "OMSDK_Zeedigitalesselgroup.xcframework"
+  spec.source_files = "VMaxOM_Source/**/*"
   
 end
