@@ -2,6 +2,7 @@
 //  VMaxOM.m
 
 #import "VMaxOM.h"
+#import <VMaxAdsSDK/VMaxAdsSDK.h>
 #import <OMSDK_Zeedigitalesselgroup/OMIDAdEvents.h>
 #import <OMSDK_Zeedigitalesselgroup/OMIDAdSession.h>
 #import <OMSDK_Zeedigitalesselgroup/OMIDAdSessionConfiguration.h>

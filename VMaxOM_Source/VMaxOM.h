@@ -2,7 +2,6 @@
 //  VMaxOM.h
 
 #import <Foundation/Foundation.h>
-@import VMaxAdsSDK;
 
 NS_ASSUME_NONNULL_BEGIN
 
