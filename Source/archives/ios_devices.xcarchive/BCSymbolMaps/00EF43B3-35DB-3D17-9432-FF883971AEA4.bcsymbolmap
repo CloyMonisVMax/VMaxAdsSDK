@@ -5696,6 +5696,7 @@ __OBJC_CLASS_RO_$_VMaxIconPopupView
 +[WebViewHelper getInstance]
 ___28+[WebViewHelper getInstance]_block_invoke
 -[WebViewHelper geNavigatorsUserAgent]
+-[WebViewHelper getUserAgent]
 -[WebViewHelper counter]
 -[WebViewHelper setCounter:]
 -[WebViewHelper userAgentInfo]
@@ -7340,7 +7341,7 @@ ___35-[VMaxAdBreakController requestAds]_block_invoke
 -[VMaxAdBreakController attemptNextAd]
 -[VMaxAdBreakController showVMaxAdView:devView:]
 ___48-[VMaxAdBreakController showVMaxAdView:devView:]_block_invoke
-___48-[VMaxAdBreakController showVMaxAdView:devView:]_block_invoke.687
+___48-[VMaxAdBreakController showVMaxAdView:devView:]_block_invoke.689
 -[VMaxAdBreakController addObservers]
 ___37-[VMaxAdBreakController addObservers]_block_invoke
 -[VMaxAdBreakController OnClosingLandingPage:]
@@ -7458,23 +7459,17 @@ ___39-[VMaxAdBreakController parse:headers:]_block_invoke_2
 -[VMaxAdBreakController setIndexPod:]
 -[VMaxAdBreakController .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.445
-_OBJC_CLASSLIST_REFERENCES_$_.597
-_OBJC_CLASSLIST_REFERENCES_$_.659
-_OBJC_CLASSLIST_REFERENCES_$_.686
-_OBJC_CLASSLIST_REFERENCES_$_.701
-_OBJC_CLASSLIST_REFERENCES_$_.706
-_OBJC_CLASSLIST_REFERENCES_$_.761
-_OBJC_CLASSLIST_REFERENCES_$_.764
-_OBJC_CLASSLIST_REFERENCES_$_.795
-_OBJC_CLASSLIST_REFERENCES_$_.851
-_OBJC_CLASSLIST_REFERENCES_$_.858
+_OBJC_CLASSLIST_REFERENCES_$_.692
+_OBJC_CLASSLIST_REFERENCES_$_.703
+_OBJC_CLASSLIST_REFERENCES_$_.763
+_OBJC_CLASSLIST_REFERENCES_$_.766
+_OBJC_CLASSLIST_REFERENCES_$_.844
+_OBJC_CLASSLIST_REFERENCES_$_.865
 ___block_descriptor_80_e8_32s40s48s56s64s_e5_v8?0l
-_OBJC_SELECTOR_REFERENCES_.978
-_OBJC_SELECTOR_REFERENCES_.1080
-_OBJC_SELECTOR_REFERENCES_.1094
-_OBJC_SELECTOR_REFERENCES_.1114
-_OBJC_SELECTOR_REFERENCES_.1118
+_OBJC_SELECTOR_REFERENCES_.1116
 _OBJC_SELECTOR_REFERENCES_.1120
+_OBJC_SELECTOR_REFERENCES_.1122
+_OBJC_SELECTOR_REFERENCES_.1142
 __OBJC_$_PROTOCOL_REFS_VMaxAdBreakResponseFetcherDelegate
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_VMaxAdBreakResponseFetcherDelegate
 __OBJC_$_PROTOCOL_METHOD_TYPES_VMaxAdBreakResponseFetcherDelegate
@@ -7548,6 +7543,7 @@ ___68-[AudioAdSelectionHandler hitLoggingUrlWithDefaultImgeWidth:height:]_block_
 -[AudioAdSelectionHandler .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.516
 _OBJC_CLASSLIST_REFERENCES_$_.583
+_OBJC_CLASSLIST_REFERENCES_$_.597
 __OBJC_METACLASS_RO_$_AudioAdSelectionHandler
 __OBJC_$_INSTANCE_METHODS_AudioAdSelectionHandler
 _OBJC_IVAR_$_AudioAdSelectionHandler.loggingHitForPortrait
@@ -7837,6 +7833,7 @@ ___26-[VMaxWebView showButton:]_block_invoke
 _OBJC_IVAR_$_VMaxWebView._adState
 _OBJC_IVAR_$_VMaxWebView._adStateString
 ___block_descriptor_40_e8_32r_e30_v24?0"NSString"8"NSError"16l
+_OBJC_CLASSLIST_REFERENCES_$_.659
 _OBJC_IVAR_$_VMaxWebView._mediationSelector
 _OBJC_CLASSLIST_REFERENCES_$_.668
 _OBJC_IVAR_$_VMaxWebView._adMarkUp
@@ -7845,6 +7842,7 @@ _OBJC_IVAR_$_VMaxWebView._expandedInAppBrowserViewController
 _OBJC_CLASSLIST_REFERENCES_$_.687
 _OBJC_IVAR_$_VMaxWebView._closeButton
 _OBJC_CLASSLIST_REFERENCES_$_.776
+_OBJC_CLASSLIST_REFERENCES_$_.795
 _OBJC_CLASSLIST_REFERENCES_$_.798
 _OBJC_IVAR_$_VMaxWebView._closeButtonDelegate
 _OBJC_IVAR_$_VMaxWebView._resizableProperty
@@ -8426,6 +8424,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.565
 ___block_descriptor_72_e8_32s40s48s56r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.619
 _OBJC_CLASSLIST_REFERENCES_$_.626
+_OBJC_CLASSLIST_REFERENCES_$_.706
 _OBJC_CLASSLIST_REFERENCES_$_.747
 _OBJC_CLASSLIST_REFERENCES_$_.754
 _OBJC_CLASSLIST_REFERENCES_$_.799
@@ -9119,7 +9118,6 @@ _OBJC_IVAR_$_VMaxNativeIconAdView.popupFullScreenWasPresented
 _OBJC_CLASSLIST_REFERENCES_$_.650
 _OBJC_IVAR_$_VMaxNativeIconAdView._nativeAdViewController
 _OBJC_IVAR_$_VMaxNativeIconAdView._selectorObj
-_OBJC_CLASSLIST_REFERENCES_$_.703
 _OBJC_IVAR_$_VMaxNativeIconAdView._popupView
 _OBJC_IVAR_$_VMaxNativeIconAdView._adViewBGColor
 _OBJC_IVAR_$_VMaxNativeIconAdView._ctaBtnBGColor
@@ -9387,6 +9385,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.847
 ___block_descriptor_88_e8_32s40s48r_e5_v8?0l
 ___block_descriptor_88_e8_32s40s48r_e8_v12?0B8l
 _OBJC_CLASSLIST_REFERENCES_$_.960
+_OBJC_SELECTOR_REFERENCES_.978
 _OBJC_CLASSLIST_REFERENCES_$_.999
 _OBJC_SELECTOR_REFERENCES_.1065
 _OBJC_SELECTOR_REFERENCES_.1067
@@ -9858,6 +9857,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.711
 _OBJC_CLASSLIST_REFERENCES_$_.714
 _OBJC_CLASSLIST_REFERENCES_$_.715
 ___block_literal_global.787
+_OBJC_CLASSLIST_REFERENCES_$_.851
 _OBJC_CLASSLIST_REFERENCES_$_.852
 _OBJC_CLASSLIST_REFERENCES_$_.862
 _OBJC_CLASSLIST_REFERENCES_$_.869
@@ -10431,7 +10431,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.709
 _OBJC_IVAR_$_VastResponceParser.isInAdParams
 _OBJC_CLASSLIST_REFERENCES_$_.744
 _OBJC_CLASSLIST_REFERENCES_$_.815
-_OBJC_CLASSLIST_REFERENCES_$_.865
 __OBJC_CLASS_PROTOCOLS_$_VastResponceParser
 __OBJC_METACLASS_RO_$_VastResponceParser
 __OBJC_$_INSTANCE_METHODS_VastResponceParser
