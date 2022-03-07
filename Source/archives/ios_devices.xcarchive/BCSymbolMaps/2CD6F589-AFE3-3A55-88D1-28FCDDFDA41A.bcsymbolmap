@@ -7344,7 +7344,6 @@ ___48-[VMaxAdBreakController showVMaxAdView:devView:]_block_invoke
 ___48-[VMaxAdBreakController showVMaxAdView:devView:]_block_invoke.689
 -[VMaxAdBreakController addObservers]
 ___37-[VMaxAdBreakController addObservers]_block_invoke
--[VMaxAdBreakController OnClosingLandingPage:]
 -[VMaxAdBreakController removeObservers]
 -[VMaxAdBreakController orientationChanged:]
 -[VMaxAdBreakController showAdLabelText:]
@@ -7400,6 +7399,8 @@ ___39-[VMaxAdBreakController parse:headers:]_block_invoke_2
 -[VMaxAdBreakController onCompanionClose:]
 -[VMaxAdBreakController applicationEnteringBackground]
 -[VMaxAdBreakController applicationEnteringForeground]
+-[VMaxAdBreakController OnOpeningLandingPage:]
+-[VMaxAdBreakController OnClosingLandingPage:]
 -[VMaxAdBreakController breakTimerElapsed]
 -[VMaxAdBreakController shouldShowVMaxAdView:devView:]
 -[VMaxAdBreakController durationOfAd:]
@@ -7461,15 +7462,14 @@ ___39-[VMaxAdBreakController parse:headers:]_block_invoke_2
 _OBJC_CLASSLIST_REFERENCES_$_.445
 _OBJC_CLASSLIST_REFERENCES_$_.692
 _OBJC_CLASSLIST_REFERENCES_$_.703
-_OBJC_CLASSLIST_REFERENCES_$_.763
-_OBJC_CLASSLIST_REFERENCES_$_.766
-_OBJC_CLASSLIST_REFERENCES_$_.844
-_OBJC_CLASSLIST_REFERENCES_$_.865
+_OBJC_CLASSLIST_REFERENCES_$_.767
+_OBJC_CLASSLIST_REFERENCES_$_.770
+_OBJC_CLASSLIST_REFERENCES_$_.848
+_OBJC_CLASSLIST_REFERENCES_$_.857
+_OBJC_CLASSLIST_REFERENCES_$_.869
 ___block_descriptor_80_e8_32s40s48s56s64s_e5_v8?0l
-_OBJC_SELECTOR_REFERENCES_.1116
-_OBJC_SELECTOR_REFERENCES_.1120
-_OBJC_SELECTOR_REFERENCES_.1122
-_OBJC_SELECTOR_REFERENCES_.1142
+_OBJC_SELECTOR_REFERENCES_.1128
+_OBJC_SELECTOR_REFERENCES_.1150
 __OBJC_$_PROTOCOL_REFS_VMaxAdBreakResponseFetcherDelegate
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_VMaxAdBreakResponseFetcherDelegate
 __OBJC_$_PROTOCOL_METHOD_TYPES_VMaxAdBreakResponseFetcherDelegate
@@ -9860,7 +9860,6 @@ ___block_literal_global.787
 _OBJC_CLASSLIST_REFERENCES_$_.851
 _OBJC_CLASSLIST_REFERENCES_$_.852
 _OBJC_CLASSLIST_REFERENCES_$_.862
-_OBJC_CLASSLIST_REFERENCES_$_.869
 _OBJC_CLASSLIST_REFERENCES_$_.872
 _OBJC_CLASSLIST_REFERENCES_$_.914
 __OBJC_$_PROTOCOL_REFS_VMaxMoviePlayerDelegate
@@ -10431,6 +10430,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.709
 _OBJC_IVAR_$_VastResponceParser.isInAdParams
 _OBJC_CLASSLIST_REFERENCES_$_.744
 _OBJC_CLASSLIST_REFERENCES_$_.815
+_OBJC_CLASSLIST_REFERENCES_$_.865
 __OBJC_CLASS_PROTOCOLS_$_VastResponceParser
 __OBJC_METACLASS_RO_$_VastResponceParser
 __OBJC_$_INSTANCE_METHODS_VastResponceParser
@@ -10744,7 +10744,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.627
 ___block_descriptor_56_e8_32s40s48s_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
 _OBJC_CLASSLIST_REFERENCES_$_.739
 _OBJC_CLASSLIST_REFERENCES_$_.854
-_OBJC_CLASSLIST_REFERENCES_$_.857
 _OBJC_CLASSLIST_REFERENCES_$_.868
 _OBJC_CLASSLIST_REFERENCES_$_.889
 _OBJC_CLASSLIST_REFERENCES_$_.892
