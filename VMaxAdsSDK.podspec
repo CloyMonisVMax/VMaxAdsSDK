@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "VMaxAdsSDK"
-  spec.version      = "0.0.140"
+  spec.version      = "0.0.141"
   spec.summary      = "VMaxAdsSdk framework enables to integrate ads"
   spec.description  = "VMaxAdsSdk framework provides all display ads,native ads,video and audio ads"
   spec.homepage     = "https://github.com/CloyMonisVMax/VMaxAdsSDK"
