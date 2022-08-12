@@ -1,5 +1,5 @@
 //
-//  VmaxTwo.h
+//  VMaxAd.h
 //  VMaxAdSDK
 //
 //  Created by admin_vserv on 11/06/20.
@@ -25,11 +25,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)getIconUrl;
 - (NSString *)getPostId;
 - (NSString *)getAdOffset;
-- (void)getAdId:(NSString *)adId;
 - (VmaxTracker *)getVmaxTracker;
+- (void)getAdId:(NSString *)adId;
 - (void)parse:(NSData *)payload adData:(NSDictionary *)adData vmaxDataListener:(VmaxDataListener *)vmaxDataListener vmaxAdView:(VMaxAdView *)vmaxAdView templateName:(NSString *)templateName;
 - (void)render:(VmaxAdTemplateListener *)vmaxAdTemplateListener adScreenType:(NSNumber *)adScreenType viewController:(UIViewController *)viewController;
+
 @end
 
 NS_ASSUME_NONNULL_END
-

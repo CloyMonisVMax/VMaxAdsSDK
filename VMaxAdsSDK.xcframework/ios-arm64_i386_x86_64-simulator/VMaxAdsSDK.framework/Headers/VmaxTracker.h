@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
 @class VMaxMediationSelector;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -14,23 +15,25 @@ NS_ASSUME_NONNULL_BEGIN
 @interface VmaxTracker : NSObject
 @property (strong, nonatomic) NSString *adID; //new adid
 @property (strong, nonatomic) NSString *ccb; //new adid
-@property (nonatomic , strong) NSMutableArray *mErrorUrls;
-@property (nonatomic , strong) NSMutableArray *mClickTrackingUrls;
-@property (nonatomic , strong) NSMutableArray *eventUrl;
-@property (nonatomic , strong) NSDictionary *adData;
-@property (nonatomic , strong) NSString *payload;
-@property (nonatomic , strong) NSMutableArray *customEventURLs;
-@property (nonatomic , strong) NSString *mClickThroughUrl;
-//@property (nonatomic , strong) NSString *omVendorKey; //662 story
-//@property (nonatomic , strong) NSString *omVerificationParam; //662 story
-//@property (nonatomic , strong) NSString *omJavaScriptResourceURL; //662 story
-@property (nonatomic , strong) NSMutableArray *verificationResourceArray; //662 story
-@property (assign , nonatomic) NSInteger EVENT_OM;
-@property (assign , nonatomic) NSInteger EVENT_IMPRESSION;
-@property (assign , nonatomic) NSInteger EVENT_VAST;
-@property (assign , nonatomic) NSInteger enableClickControl;
+@property (nonatomic, strong) NSMutableArray *mErrorUrls;
+@property (nonatomic, strong) NSMutableArray *mClickTrackingUrls;
+@property (nonatomic, strong) NSMutableArray *eventUrl;
+@property (nonatomic, strong) NSDictionary *adData;
+@property (nonatomic, strong) NSString *payload;
+@property (nonatomic, strong) NSMutableArray *customEventURLs;
+@property (nonatomic, strong) NSString *mClickThroughUrl;
+//@property (nonatomic, strong) NSString *omVendorKey; //662 story
+//@property (nonatomic, strong) NSString *omVerificationParam; //662 story
+//@property (nonatomic, strong) NSString *omJavaScriptResourceURL; //662 story
+@property (nonatomic, strong) NSMutableArray *verificationResourceArray; //662 story
+@property (assign, nonatomic) NSInteger EVENT_OM;
+@property (assign, nonatomic) NSInteger EVENT_IMPRESSION;
+@property (assign, nonatomic) NSInteger EVENT_COMPLETE; // 3.15.13
+@property (assign, nonatomic) NSInteger EVENT_VAST;
+@property (assign, nonatomic) NSInteger enableClickControl;
 @property (nonatomic, strong) VMaxMediationSelector *mediationSelector;
-@property (nonatomic , strong) NSMutableArray *mImpressionUrls;
+@property (nonatomic, strong) NSMutableArray *mImpressionUrls;
+@property (nonatomic, strong) NSMutableArray *mCompleteUrls; // 3.15.13
 
 
 - (id)initWithName:(NSString *)payload showLogEvent:(BOOL)showLogEvent;

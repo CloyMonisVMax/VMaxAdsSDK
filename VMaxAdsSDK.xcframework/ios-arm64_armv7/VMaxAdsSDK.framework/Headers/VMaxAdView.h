@@ -420,7 +420,7 @@ typedef NS_ENUM(NSUInteger, VMaxAdVideoTag) {
 //-(void)prepareOrganicAd:(NSString *)ad headers:(NSDictionary *)headers;
 //-(void)prepareOrganicAd:(NSString *)ad headers:(NSDictionary *)headers adId:(NSString *)adId;
 -(void)prepareOrganicAd:(NSString *)ad headers:(NSDictionary *)headers adId:(NSString *)adId fcapDict:(NSDictionary *)fcapDict cid:(NSString *)cid; //added for fcap shorts
-- (void)setAdOption:(AdOptionKey)adOptionKey adOptionValue:(AdOptionValue)adOptionValue;
+// - (void)setAdOption:(AdOptionKey)adOptionKey adOptionValue:(AdOptionValue)adOptionValue;
 // 3.14.5 shorts
 
 -(void)showAd;

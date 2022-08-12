@@ -13,7 +13,8 @@ typedef NS_ENUM(NSUInteger, AdOptionKey) {
 
 typedef NS_ENUM(NSUInteger, AdOptionValue) {
     SCREEN_MID,
-    SCREEN_END
+    SCREEN_END,
+    SCREEN_CTA
 };
 
 typedef NS_ENUM(NSUInteger, VmaxAdAsset) {

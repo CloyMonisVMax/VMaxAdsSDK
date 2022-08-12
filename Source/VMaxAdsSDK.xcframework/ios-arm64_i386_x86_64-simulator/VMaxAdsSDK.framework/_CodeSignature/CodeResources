@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/VMaxAd.h</key>
 		<data>
-		cQ/+hzcwsM33lQSz2SGw4MVD9gc=
+		MtAcWItIRMEDx6LgyXPLuT1L8jY=
 		</data>
 		<key>Headers/VMaxAdBreak.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/VMaxAdSDK.h</key>
 		<data>
-		zXkJRL7zE66usWOyu1WVb3vGpgc=
+		VUHXBTBaErafvZRaV9JPcT7DKEQ=
 		</data>
 		<key>Headers/VMaxAdSettings.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/VMaxAdView.h</key>
 		<data>
-		sJB2Jf/KAqlw0lesExXohacEcks=
+		qoMyQdM6n4X7hILupOmM/fEgIio=
 		</data>
 		<key>Headers/VMaxAdsSDK.h</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Headers/VmaxAdFactory.h</key>
 		<data>
-		scdp8HFOqDcgp912m1rrwuwvrfw=
+		SAQytY+t1N55P+yQoBD/wzyC7f0=
 		</data>
 		<key>Headers/VmaxAdSpot.h</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Headers/VmaxTracker.h</key>
 		<data>
-		P5nnZUjY5Q/MVkbkK1uRYvMTHBE=
+		YotmweEhqK29yMoyLc49iy0w9Mc=
 		</data>
 		<key>Headers/VmaxTrackerException.h</key>
 		<data>
@@ -551,11 +551,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cQ/+hzcwsM33lQSz2SGw4MVD9gc=
+			MtAcWItIRMEDx6LgyXPLuT1L8jY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2xLdG/SWk/9nthkYy3l6N1YF8vAcGi2znffp4uiIOoU=
+			rj6Estw4btKpFhE8htCEE0Vdo185YysB0NOz0ZVOD9I=
 			</data>
 		</dict>
 		<key>Headers/VMaxAdBreak.h</key>
@@ -683,11 +683,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zXkJRL7zE66usWOyu1WVb3vGpgc=
+			VUHXBTBaErafvZRaV9JPcT7DKEQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UPT3my4TVFxkJC/QyuHU6WePcJEFwCJvIic7ZCKM1OA=
+			kyZNKI86N+Yqcas+c8cM6PB5YC4Tv3w/0ebOcHOd4yA=
 			</data>
 		</dict>
 		<key>Headers/VMaxAdSettings.h</key>
@@ -716,11 +716,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sJB2Jf/KAqlw0lesExXohacEcks=
+			qoMyQdM6n4X7hILupOmM/fEgIio=
 			</data>
 			<key>hash2</key>
 			<data>
-			8QM5hX4GnhCU3fUV3yObVegmSBiTpBZSis7JHsSakIw=
+			bwBXGh333Jr0W0YSV5df/62CB87fiBh0PbN76SoVbkQ=
 			</data>
 		</dict>
 		<key>Headers/VMaxAdsSDK.h</key>
@@ -892,11 +892,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			scdp8HFOqDcgp912m1rrwuwvrfw=
+			SAQytY+t1N55P+yQoBD/wzyC7f0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mkPYHYcR0f8b7XFnqzVusGSVsTYe73TSkLQnsdDeF+g=
+			Ii9kxPok2fXvseoWTFtELBaxmcZ9W2SdXiBQTwVrUnQ=
 			</data>
 		</dict>
 		<key>Headers/VmaxAdSpot.h</key>
@@ -969,11 +969,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P5nnZUjY5Q/MVkbkK1uRYvMTHBE=
+			YotmweEhqK29yMoyLc49iy0w9Mc=
 			</data>
 			<key>hash2</key>
 			<data>
-			bfShwYmIJ7naAtijTGZA/I9u5EkXFq6EmxljwZIgCuI=
+			cqeMqMY4H60LXuIIQ3KPKmuNiRJ+on6FnkSw2aHIBI8=
 			</data>
 		</dict>
 		<key>Headers/VmaxTrackerException.h</key>
