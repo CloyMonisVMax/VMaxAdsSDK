@@ -11,11 +11,10 @@ typedef NS_ENUM(NSUInteger, AdOptionKey) {
     SCREEN_TYPE
 };
 
-typedef NS_ENUM(NSUInteger, AdOptionValue) {
-    SCREEN_MID,
-    SCREEN_END,
-    SCREEN_CTA
-};
+// typedef NS_ENUM(NSUInteger, AdOptionValue) { // 3.15.13
+//     SCREEN_MID,
+//     SCREEN_END
+// };
 
 typedef NS_ENUM(NSUInteger, VmaxAdAsset) {
     asset_ImageIcon,//brand page
